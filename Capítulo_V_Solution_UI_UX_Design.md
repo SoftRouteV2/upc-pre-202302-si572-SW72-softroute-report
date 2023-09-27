@@ -9,6 +9,7 @@
 **Logo:** 
 
 El logo de nuestra aplicación este asociado al rubro de transporte
+<img src="https://raw.githubusercontent.com/SoftRouteV2/upc-pre-202302-si572-SW72-softroute-report/main/Resources/images/logo.png" alt="Imagen" width="100" height="100" style="margin-right: 20px;">
 
 
 
@@ -21,9 +22,9 @@ Debido a las características de nuestros segmentos objetivos y la naturaleza de
 
 Según los elementos del diseño, usamos como colores predominantes naranja y blanco, porque esos son los colores que trasmiten energía, amabilidad, innovación y alegría.
 
-|Purpura Blanco Azul|Purpura Blanco Azul|Purpura Blanco Azul|
-| - | - | - |
-|<p>Hexadecimal: #6200EE</p><p>RGB: 98 0 238</p>|<p>Hexadecimal: #ffffff</p><p>RGB: 255 255 255</p>|<p>Hexadecimal: #3700B3</p><p>RGB: 0 0 0</p>|
+| Purpura Blanco Azul                             | Purpura Blanco Azul                                | Purpura Blanco Azul                          |
+|-------------------------------------------------|----------------------------------------------------|----------------------------------------------|
+| <p>Hexadecimal: #6200EE</p><p>RGB: 98 0 238</p> | <p>Hexadecimal: #ffffff</p><p>RGB: 255 255 255</p> | <p>Hexadecimal: #3700B3</p><p>RGB: 0 0 0</p> |
 
 **Iconos:**
 
