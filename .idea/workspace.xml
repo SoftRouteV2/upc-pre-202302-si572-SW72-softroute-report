@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1aef0ef-adb5-485a-a47b-386a97856f63" name="Changes" comment="">
+    <list default="true" id="d1aef0ef-adb5-485a-a47b-386a97856f63" name="Changes" comment="fix: fixed name teacher">
+      <change afterPath="$PROJECT_DIR$/Capitulo_IV_Solution_Software_Design.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +55,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "feat/Capitulo__IV__Solution__design",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,6 +89,7 @@
       <workItem from="1695778793104" duration="5238000" />
       <workItem from="1695784502451" duration="943000" />
       <workItem from="1695785464017" duration="102000" />
+      <workItem from="1695801538934" duration="2222000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add logo image">
       <option name="closed" value="true" />
@@ -177,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695785523802</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix: fixed name teacher">
+      <option name="closed" value="true" />
+      <created>1695786352468</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695786352468</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +215,7 @@
     <MESSAGE value="feat: update" />
     <MESSAGE value="fix: image positions" />
     <MESSAGE value="fix: fixed position images" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: fixed position images" />
+    <MESSAGE value="fix: fixed name teacher" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: fixed name teacher" />
   </component>
 </project>
