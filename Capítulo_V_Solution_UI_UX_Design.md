@@ -225,7 +225,9 @@ Se decidió hacerlo de esta forma, puesto que es más fácil para el usuario que
    1. ### <a name="_toc146127695"></a>Landing Page Mock-up
 
 ![landingPageMockup1](Resources/images/landingPageMockup1.png)
+
 ![landingPageMockup2](Resources/images/landingPageMockup2.png)
+
 ![landingPageMockup3](Resources/images/landingPageMockup3.png)
 
 
@@ -234,7 +236,9 @@ Se decidió hacerlo de esta forma, puesto que es más fácil para el usuario que
 En esta sección se evidenciará los wireframes de la aplicación web.
 
 ![applicationWebWireframe1](Resources/images/applicationWebWireframe1.png)
+
 ![applicationWebWireframe2](Resources/images/applicationWebWireframe2.png)
+
 ![applicationWebWireframe3](Resources/images/applicationWebWireframe3.png)
 
 
@@ -242,27 +246,33 @@ Véase en el anexo: <https://www.figma.com/file/bzGYrJdsJoX1WwExTHYUva/SoftRoute
 1. ### <a name="_toc146127698"></a>Applications Wireflow Diagrams
 En esta sección se mencionaran los flujos de procesos.
 En primer lugar, se tiene la parte de iniciar sesión o crear cuenta.
+
 ![applicationWebWireflow1](Resources/images/applicationWebWireflow1.png)
 
 
 En segundo lugar, se tiene el flujo de ver ubicación del pedido
+
 ![applicationWebWireflow2](Resources/images/applicationWebWireflow2.png)
 
 
 En tercer lugar, se tiene ver el historial de pedidos.
+
 ![applicationWebWireflow3](Resources/images/applicationWebWireflow3.png)
 
 
 En cuarto lugar, se tiene ver comentarios.
+
 ![applicationWebWireflow4](Resources/images/applicationWebWireflow4.png)
 
 Por último, se tiene el flujo de crear pedido .
+
 ![applicationWebWireflow5](Resources/images/applicationWebWireflow5.png)
 
 
 1. ### <a name="_toc146127699"></a>Applications Mock-ups
 
 ![applicationWebMockup1](Resources/images/applicationWebMockup1.png)
+
 ![applicationWebMockup2](Resources/images/applicationWebMockup2.png)
 
 
