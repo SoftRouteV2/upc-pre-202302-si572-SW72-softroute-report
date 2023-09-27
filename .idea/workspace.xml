@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d1aef0ef-adb5-485a-a47b-386a97856f63" name="Changes" comment="fix: fixed position images" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/develop" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2VxXdQXrhlT75HlAMfjMNxJqpCB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS important messages",
+    "Notification.DoNotAsk-Vcs Important Messages": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "feat/capitulo-3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="upc-pre-202302-si572-SW72-softroute-report" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="upc-pre-202302-si572-SW72-softroute-report" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1aef0ef-adb5-485a-a47b-386a97856f63" name="Changes" comment="" />
+      <created>1695778791748</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695778791748</updated>
+      <workItem from="1695778793104" duration="5238000" />
+      <workItem from="1695784502451" duration="943000" />
+      <workItem from="1695785464017" duration="102000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: add logo image">
+      <option name="closed" value="true" />
+      <created>1695779844963</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695779844963</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: add logo image">
+      <option name="closed" value="true" />
+      <created>1695779855464</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695779855464</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: add Flow diagram">
+      <option name="closed" value="true" />
+      <created>1695783778055</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695783778055</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: add Web mockups images">
+      <option name="closed" value="true" />
+      <created>1695783811842</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695783811842</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: add Web Wire flows images">
+      <option name="closed" value="true" />
+      <created>1695783836148</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695783836148</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: add landing pages images">
+      <option name="closed" value="true" />
+      <created>1695783873816</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695783873816</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: add web wireframes images">
+      <option name="closed" value="true" />
+      <created>1695783892769</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695783892769</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: add web prototyping images">
+      <option name="closed" value="true" />
+      <created>1695783908965</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695783908965</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: update">
+      <option name="closed" value="true" />
+      <created>1695784745881</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695784745881</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix: image positions">
+      <option name="closed" value="true" />
+      <created>1695785115884</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695785115884</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix: fixed position images">
+      <option name="closed" value="true" />
+      <created>1695785523802</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695785523802</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: add logo image" />
+    <MESSAGE value="feat: add Flow diagram" />
+    <MESSAGE value="feat: add Web mockups images" />
+    <MESSAGE value="feat: add Web Wire flows images" />
+    <MESSAGE value="feat: add landing pages images" />
+    <MESSAGE value="feat: add web wireframes images" />
+    <MESSAGE value="feat: add web prototyping images" />
+    <MESSAGE value="feat: update" />
+    <MESSAGE value="fix: image positions" />
+    <MESSAGE value="fix: fixed position images" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: fixed position images" />
+  </component>
+</project>
