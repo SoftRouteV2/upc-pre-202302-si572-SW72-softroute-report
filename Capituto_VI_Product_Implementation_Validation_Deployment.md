@@ -1,3 +1,5 @@
+<p align="left"><a href="https://github.com/SoftRouteV2/upc-pre-202302-si572-SW72-softroute-report/blob/main/Tabla_de_Contenidos.md">Volver a tabla de contenidos</a></p>
+
 ## 6.1 Software Configuration Management
 ### 6.1.1.	Software Development Environment Configuration
 En esta sección se describen cada uno de los productos software que empleamos en el proyecto. Es importante porque permite que los integrantes colaboren en el ciclo de vida del proyecto. El formato que tiene esta sección consiste en lo siguiente:  descripción del producto software y en la parte inferior una url de referencia.
@@ -154,22 +156,66 @@ En esta sección abordaremos el proceso para desplegar nuestra Landing Page medi
 </table>
 
 #### 6.2.1.2. Sprint Backlog 1: Desarrollo de landing page
+Para el Desarrollo de landing page nos ayudamos de la herramienta de trello, en ello se evidencia los user stories culminados para esta entrega.
+[![Trello](/Resources/source-code-management/trello.png)](https://trello.com/b/taOGp3JV/sprint-1 )
+Link: https://trello.com/b/taOGp3JV/sprint-1 
 
 #### 6.2.1.3. Development Evidence for Sprint Review
 
+|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
+| :-: | :-: | :-: | :-: |
+|**master**|**859262cabd9a25bb185e5b624dc56ed0a18ef844**|` `**initial commit**|**24**/09/23|
+|**master**|**64d898482448217c89e591fe2fa421e83c6da762**|**Update CNAME**|**24**/09/23|
+|**master**|**bd2cc5c4be49f7144c1a8ec936a9470ba043d113**|**Update index.html**|**24**/09/23|
+|**master**|**2516b2b1b8fe0c576e2ca6b10a40095461172f9b**|**fix**|**24**/09/23|
+|<p>**master**</p><p></p>|**d36e66a899abcbfadcc59481d0f73fad5f26b8fc**|**Remove unnecessary files**|<p>**26**/09/23</p><p></p>|
+|<p>**master**</p><p></p>|**899424b8aaa1b41d2af3c6060c31d4b9efdd20d3**|**feat: update profile of member**|<p>**26**/09/23</p><p></p>|
+|<p>**master**</p><p></p>|**9fa37b3995b2c589d0f24de9adc13c843dcc6b48**|**feat: describe some steps to start use the app**|<p>**26**/09/23</p><p></p>|
+|<p>**master**</p><p></p>|**628cf48cc120eefb03ec10071fc650b97a1059db**|**feat: describe some steps to start use the app**|<p>**26**/09/23</p><p></p>|
+|**master**|**e91c9306e453c5e39a1704d7c61535b663292839**|**feat: describe some steps to start use the app**|<p>**26**/09/23</p><p></p>|
+|**master**|**87717d4effc35df02cba628bdb3b15c75928573d**|**feat: describe some steps to trak**|<p>**26**/09/23</p><p></p>|
+|**master**|**1695fa2006f357eaad62df8cfd045d70598cb45a**|**feat: Updated index file**|<p>**25**/09/23</p><p></p>|
+|**master**|**4809287ad884d42c4b061afd16f7b12791422653**|**feat: Fixed index file**|<p>**26**/09/23</p><p></p>|
+
+
+
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
+En este informe, presentamos las pruebas automatizadas realizadas con Selenium en la landing page de SoftRoute para el Sprint Review. Estas pruebas han sido cruciales para validar la funcionalidad y la experiencia del usuario en nuestra página principal. A través de Selenium, hemos simulado interacciones de usuarios reales y verificado que la landing page funcione de manera óptima. Este informe destaca los escenarios de prueba, los resultados y las acciones tomadas para mejorar la calidad de nuestra landing page.
+
+<ul>
+    <li>Creación de proyecto
+    <img src="/Resources/source-code-management/project_creation.png"/>
+    <li>Ingresar enlace de Landing Page desplegado
+    <img src="/Resources/source-code-management/deploy.png"/>
+    <li>Ejecutar Selenium
+    <img src="/Resources/source-code-management/run_selenium.png"/>
+    <li>Detener grabación
+    <img src="/Resources/source-code-management/stop_record.png"/>
+    <li>Prueba exitosa
+    <img src="/Resources/source-code-management/success.png"/>
+</ul>
 
 #### 6.2.1.5. Execution Evidence for Sprint Review
+El execution evidence muestra el reporte trabajado en github, los capítulos desarrollados en las ramas del repositorio. Asimismo, se muestra el landing page desplegado, para ello se evidencia el código y luego el link desplegado en Netlify.
+[![Execution Evidence](/Resources/source-code-management/execution_evidence.png)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b561_upc_edu_pe/EYO7MihKnppBpzwclMBFyk0BTjbRcSGOOrGRc9crJefTyQ?e=slGPee&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19)
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b561_upc_edu_pe/EYO7MihKnppBpzwclMBFyk0BTjbRcSGOOrGRc9crJefTyQ?e=slGPee&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZyIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19
+
 
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review
-
-#### 6.2.1.7. Software Deployment Evidence for Sprint Review
 Para la tb1 se desarrolló el landing page. Para ello, se realizó el despliegue de la landing page en Netlify. 
 Luego de haber desplegado, el landing page se podrá acceder a través de un link proporcionado por Netlify.
 ![Landing Page Hero Section](/Resources/source-code-management/landing_page_1.png)
 ![Landing Page Company Section](/Resources/source-code-management/landing_page_2.png)
 Link: https://6510f678a171f143f95de96d--vermillion-paprenjak-0251b7.netlify.app/ 
 
+#### 6.2.1.7. Software Deployment Evidence for Sprint Review
+Para la tb1 se desarrolló el landing page. Para ello, se realizó el despliegue de la landing page en Netlify. 
+Luego de haber desplegado, el landing page se podrá acceder a través de un link proporcionado por Netlify.
+
+![Evidence 1](/Resources/source-code-management/evidence_1.png)
+![Evidence 2](/Resources/source-code-management/evidence_2.png)
+
+Link: https://6510f678a171f143f95de96d--vermillion-paprenjak-0251b7.netlify.app/ 
 #### 6.2.1.8. Team Collaboration Insights during Sprint
 Para el desarrollo de cada uno de los artefactos del informe se realizó reuniones por un grupo de Discord, en las cuales dividimos cada uno de los apartados de cada entrega para poder realizarlos con mayor facilidad. Posteriormente, realizado cada punto individualmente, nos reunimos para mostrar nuestros avances y pedir las opiniones de los demás integrantes. Asimismo, se creó una organización en teams para poder organizar las entregas e ir subiendo cada avance. Por otra parte, para la elaboración del landing page empleamos el sistema de control de versiones git y la plataforma de github. A continuación, se mestra el Network graph donde se puede evidenciar todos los commits realizados en nuestro repositorio:
 
