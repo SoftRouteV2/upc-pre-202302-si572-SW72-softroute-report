@@ -12,7 +12,7 @@ Ciclo: 2023-2
 
 **Sección: SW71**
 
-**Profesor: Angel Augusto Velásquez Núñez**
+**Profesor: Marco Antonio León Baca**
 
 ----
 ## Informe de Trabajo Final
