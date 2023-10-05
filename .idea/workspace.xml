@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1aef0ef-adb5-485a-a47b-386a97856f63" name="Changes" comment="fix: fixed name teacher">
-      <change afterPath="$PROJECT_DIR$/Capitulo_IV_Solution_Software_Design.md" afterDir="false" />
+    <list default="true" id="d1aef0ef-adb5-485a-a47b-386a97856f63" name="Changes" comment="feat: add solution software design">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Capitulo_III_Requirements_Specification.md" beforeDir="false" afterPath="$PROJECT_DIR$/Capitulo_III_Requirements_Specification.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Capitulo_IV_Solution_Software_Design.md" beforeDir="false" afterPath="$PROJECT_DIR$/Capitulo_IV_Solution_Software_Design.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Capítulo_I_Introducción.md" beforeDir="false" afterPath="$PROJECT_DIR$/Capítulo_I_Introducción.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,29 +58,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feat/Capitulo__IV__Solution__design",
+    "git-widget-placeholder": "fix/format__document",
+    "last_opened_file_path": "/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/images/abelcierto.jpg",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="upc-pre-202302-si572-SW72-softroute-report" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="upc-pre-202302-si572-SW72-softroute-report" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -90,6 +80,8 @@
       <workItem from="1695784502451" duration="943000" />
       <workItem from="1695785464017" duration="102000" />
       <workItem from="1695801538934" duration="2222000" />
+      <workItem from="1695843125191" duration="640000" />
+      <workItem from="1696447607444" duration="15412000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add logo image">
       <option name="closed" value="true" />
