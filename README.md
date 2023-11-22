@@ -1761,52 +1761,443 @@ Link: https://trello.com/b/taOGp3JV/sprint-1
 
 
 #### 6.2.1.3. Development Evidence for Sprint Review.
+| Branch | Commit Id                                 | Commit Message                             | Commited on (Date) |
+|--------|-------------------------------------------|--------------------------------------------|--------------------|
+| master | 859262cabd9a25bb185e5b624dc56ed0a18ef844 | Initial commit                             | 24/09/23           |
+| master | 64d898482448217c89e591fe2fa421e83c6da762 | Update CNAME                                | 24/09/23           |
+| master | bd2cc5c4be49f7144c1a8ec936a9470ba043d113 | Update index.html                           | 24/09/23           |
+| master | 2516b2b1b8fe0c576e2ca6b10a40095461172f9b | Fix                                        | 24/09/23           |
+| master | d36e66a899abcbfadcc59481d0f73fad5f26b8fc | Remove unnecessary files                    | 26/09/23           |
+| master | 899424b8aaa1b41d2af3c6060c31d4b9efdd20d3 | feat: update profile of member             | 26/09/23           |
+| master | 9fa37b3995b2c589d0f24de9adc13c843dcc6b48 | feat: describe some steps to start use the app | 26/09/23           |
+| master | 628cf48cc120eefb03ec10071fc650b97a1059db | feat: describe some steps to start use the app | 26/09/23           |
+| master | e91c9306e453c5e39a1704d7c61535b663292839 | feat: describe some steps to start use the app | 26/09/23           |
+| master | 87717d4effc35df02cba628bdb3b15c75928573d | feat: describe some steps to track          | 26/09/23           |
+| master | 1695fa2006f357eaad62df8cfd045d70598cb45a | feat: Updated index file                   | 25/09/23           |
+| master | 4809287ad884d42c4b061afd16f7b12791422653 | feat: Fixed index file                     | 26/09/23           |
 
 
 
 
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review.
+En este informe, presentamos las pruebas automatizadas realizadas con Selenium en la landing page de SoftRoute para el Sprint Review. Estas pruebas han sido cruciales para validar la funcionalidad y la experiencia del usuario en nuestra página principal. A través de Selenium, hemos simulado interacciones de usuarios reales y verificado que la landing page funcione de manera óptima. Este informe destaca los escenarios de prueba, los resultados y las acciones tomadas para mejorar la calidad de nuestra landing page.
+
+Creación de proyecto:
 
 
 
+Ingresar enlace de Landing Page desplegado
 
+
+Ejecutar Selenium
+
+
+Detener grabación
+
+
+Prueba exitosa
 
 #### 6.2.1.5. Execution Evidence for Sprint Review.
 
+El execution evidence muestra el reporte trabajado en github, los capítulos desarrollados en las ramas del repositorio. Asimismo, se muestra el landing page desplegado, para ello se evidencia el código y luego el link desplegado en Netlify.
 
 
 
+Link: upc-pre-202302-si572-sw72-SoftRoute-sprint1-execution-evidence.mp4 
 
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review.
 
+Para la tb1 se desarrolló el landing page. Para ello, se realizó el despliegue de la landing page en Netlify.
+
+Luego de haber desplegado, el landing page se podrá acceder a través de un link proporcionado por Netlify.
+
+
+Link: https://6510f678a171f143f95de96d--vermillion-paprenjak-0251b7.netlify.app/
+
+
+
+#### 6.2.1.7. Team Collaboration Insights during Sprint.
+Para el desarrollo de cada uno de los artefactos del informe se realizó reuniones por un grupo de Discord, en las cuales dividimos cada uno de los apartados de cada entrega para poder realizarlos con mayor facilidad. Posteriormente, realizado cada punto individualmente, nos reunimos para mostrar nuestros avances y pedir las opiniones de los demás integrantes. Asimismo, se creó una organización en teams para poder organizar las entregas e ir subiendo cada avance. Por otra parte, para la elaboración del landing page empleamos el sistema de control de versiones git y la plataforma de github. A continuación, se mestra el Network graph donde se puede evidenciar todos los commits realizados en nuestro repositorio
+
+
+### 6.2.2. Sprint 2
+#### 6.2.2.1. Sprint Planning 2.
+
+
+
+#### 6.2.2.2. Sprint Backlog 2.
+Para el Desarrollo del sprint 2 nos ayudamos de la herramienta de trello, en ello se evidencia los user stories culminados para esta entrega.
+
+Link: https://trello.com/b/zVH7hhBK/sprint-2
 
 
 
 
-#### 6.2.1.7. Software Deployment Evidence for Sprint Review
+
+
+#### 6.2.2.3. Development Evidence for Sprint Review.
+La siguiente tabla corresponde al desarrollo del frontend de la aplicación:
+
+| Branch             | Commit Id                                 | Commit Message                               | Commited on (Date) |
+|--------------------|-------------------------------------------|----------------------------------------------|--------------------|
+| Feat/security      | c6e4f76167dd67b97d42ae759bdf1b47ba12cd9d | Initial commit                               | 12/09/2023         |
+| Feat/security      | c5803b4a0f884b7ad8a3e3a5b7741e2e79d72e63 | Add Angular Material                         | 12/09/2023         |
+| Feat/security      | 0d0389e005a96929df20860dbb435825abaae112 | Add AppRoutingModule                        | 12/09/2023         |
+| Feat/security      | 79c5c891f84f77f33dd52bfcf2ef6c9fd10be053 | Add nav bar                                  | 12/09/2023         |
+| Feat/security      | 72442e8dd5472d76b47875bbcddc8be7a5dd60a3 | feat: add to login page                      | 12/10/2023         |
+| Feat/security      | 15d3c8e280ac32fb5aeca36aeff7e927f16e1529 | feat: add Login component                    | 12/10/2023         |
+| Feat/security      | 274fcd54416ee064cc487b4103358185cd9758cc | feat: add supplier-home component            | 12/10/2023         |
+| Feat/supplier      | 2f94c73b7dd0ea3eeab95c57b5b7eb9240372e2f | fix: add company service                     | 21/10/2023         |
+| Feat/supplier      | d125360af1ddae1466695cea9ed966d37d5210f3 | fix: add company model                       | 21/10/2023         |
+| Feat/supplier      | 39c9dd24c53f6d2e83b9cae7aff41c04b87974c2 | fix: add employee service                    | 21/10/2023         |
+| Feat/supplier      | b7f72883ecb8d188deb8d41a186e8d0be85e6954 | fix: add employee model                      | 21/10/2023         |
+| Feat/supplier      | 36401ddb04d6267bb1895fc70909efe13ebeba5b | fix: refactor sign in page                   | 21/10/2023         |
+| Feat/supplier      | d0e74836c7ddf12c4f80e75082f7f16feb499e45 | fix: refactor sign up page                   | 21/10/2023         |
+| Feat/supplier      | e1564e9a87940cb019dde87dd45d454c20a2d004 | fix: refactor supplier profile page          | 21/10/2023         |
+| Feat/supplier      | 03400a4568e184c7f7ba454636e8b92adaa3905f | feat: add user model                         | 21/10/2023         |
+| Feat/supplier      | c80f20d8120647e2285ef7f7402bb444a5676ef7 | ix: fix template service                     | 21/10/2023         |
+| Feat/tracking-shipment | 58ccd105a9b45223b578a9e21aed593a6f2b49f1 | feat: create header of shipment tracking     | 22/10/2023         |
+| Feat/tracking-shipment | fd68126d8ee4db9629654db91b19047330ec1cfe | feat: change id shipment code                 | 22/10/2023         |
+| Feat/tracking-shipment | a47f1647d28f3013af325c2f50c1af438291a88c | feat: added the file trucking shipment       | 22/10/2023         |
+| Feat/tracking-shipment | f35417a81b808d4740f46062960266db7a8ad5fc | feat: delete label input                     | 22/10/2023         |
+| Feat/tracking-shipment | a4c8625d84b2cb0db01c4d0b086a0a654e67db8a | feat: finished the tracking of information shipment | 22/10/2023     |
+
+
+La siguiente tabla corresponde a la elaboración del backend de la aplicación:
+
+| Branch             | Commit Id                                 | Commit Message                                     | Commited on (Date) |
+|--------------------|-------------------------------------------|----------------------------------------------------|--------------------|
+| Feature/company    | a4617c1fde3725d30db5b36aa179f73660678bd9 | Update spring version in pom.xml file              | 7/10/2023          |
+| Feature/company    | dbf21ce2409b24b081cf24f31c689ec449db3a63 | Add shared files and classes :)                    | 7/10/2023          |
+| Feature/company    | 033b519a6cdd09c7bb61ffc2da2b0e04c12e8cfe | (Shipment): add shipment entity                    | 7/10/2023          |
+| Feature/company    | 82dcb53e8343377ddc17a3d001e4384dccfa1e5d | (Shipment): add shipment repository                | 7/10/2023          |
+| Feature/company    | d5eae76cc9cd8b69fa55f07acfc5367e62d84129 | (Shipment): add shipment entity                    | 7/10/2023          |
+| Feature/company    | f2383afd9d218e0fedfdb649733d33d6caa60b98 | (Shipment): add shipment mapper                    | 7/10/2023          |
+| Feature/company    | 48dc96ca2cc0159ee5776e6f811ed08b98c4836a | (Shipment): add shipment resources                 | 7/10/2023          |
+| Feature/company    | ad7a69e65ae0d1a6ab26230ea073cdf3958d1756 | (Shipment): add shipment service                   | 7/10/2023          |
+| Feature/company    | 00cee0b895042eaaf427ced39064c70772ce5489 | (Shipment) add service                             | 7/10/2023          |
+| Feature/company    | f8ae7d10b578f9a8a37cda501395ce85dcc4ead9 | (Shipment): add create shipment                    | 10/10/2023         |
+| Feature/company    | 27fb8be5789049abd2938e684c5bf2d27fbdc953 | Fix properties                                     | 12/10/2023         |
+| Feature/company    | 5e085fedc2a392f7f38c3b53b5623ddfeb934359 | Add dependency                                     | 12/10/2023         |
+| Feature/company    | acf2966ee1037e729a3b5f200203a76df694092d | (Shipment): crud shipment                           | 12/10/2023         |
+| Feature/company    | 7023b447f32d030a07d207c29b0e8733f0742be1 | (Shipment): api implemented                        | 12/10/2023         |
+| Feature/company    | 4c6772708c1344582ab3d50c939f313e4efd4e9d | Fix some config bugs                                | 21/10/2023         |
+| Feature/company    | e94409c04fba116bd9f15c603947da4c19739e2a | (Company) entity added                              | 21/10/2023         |
+| Feature/company    | 35d338f5416cfa6bb5a36ba81690f16f155e13e2 | (Company) company repository added                  | 21/10/2023         |
+| Feature/company    | 0f4517d163b254e18f536a95106ac8f5d434e3f1 | (Company) company resource added                    | 21/10/2023         |
+| Feature/company    | 3185aaf75f05a5a23ba77b592a63ef2f60c130e3 | (Company) create & update company resource added    | 21/10/2023         |
+| Feature/company    | 264acd0f5f30da372ddf9dfb0ca8ac0baf085481 | (Company) company service added                     | 21/10/2023         |
+| Feature/company    | 0a341d0d7c5e3a560932706605955ff42d19f976 | (Company) company service implemented added        | 21/10/2023         |
+| Feature/company    | 83f2560a4246b9dec0640276a0db3943f09d0b5b | (Company) company controller added                  | 21/10/2023         |
+| Feature/company    | abee1ab03c32c449991e695c138e63789ed45a0a | (Company) mapper added                              | 21/10/2023         |
+| Feature/employee   | 4c6772708c1344582ab3d50c939f313e4efd4e9d | Fix some config bugs                                | 21/10/2023         |
+| Feature/employee   | e94409c04fba116bd9f15c603947da4c19739e2a | (Company) entity added                              | 21/10/2023         |
+| Feature/employee   | ed7c24266339e9f35c28bc677c16ee04fa5c3fae | (Employee) add employee entity                      | 21/10/2023         |
 
 
 
 
 
-#### 6.2.1.8. Team Collaboration Insights during Sprint.
+#### 6.2.2.4. Testing Suite Evidence for Sprint Review.
+
+| Branch   | Commit Id                                 | Commit Message          | Commited on (Date) |
+|----------|-------------------------------------------|-------------------------|--------------------|
+| Testing  | e5776f77f15d55684f1ec9901d7cf501ee199cd6 | feat: testGetAllCompanies | 3/11/2023          |
+| Testing  | ddfa65a395a1a411c9ddb64dc88efedfbdd22f52 | feat: testGetCompanyById | 3/11/2023          |
+| Testing  | f3db4ed195c4841c0469172eb0b7920f0b5bca8e | feat: testCreateCompany  | 3/11/2023          |
+| Testing  | f668bda972e71dd2fafecd27234f6f327dbb8126 | feat: testDeleteCompany  | 3/11/2023          |
+| Testing  | a8910a81a405c4a03a40b6cc36b0f205d7a533f4 | feat: testUpdateCompany  | 3/11/2023          |
 
 
 
+#### 6.2.2.5. Execution Evidence for Sprint Review.
+Para esta entrega se desarrollo el backend y el frontend de la aplicación web. Asimismo, se realizó el testeo del company en el backend. Finalmente, se desplegó una base de datos para poder almacenar los usuarios y encomiendas de manera persistente.
+
+
+upc-pre-202302-si572-sw72-SoftRoute-exe-evidence-tb2.mp4
+
+#### 6.2.2.6. Services Documentation Evidence for Sprint Review.
+
+El service documentation elaborado en el backend es el siguiente:
+
+En las siguientes imágenes se observan los controller desarrollados para el backend. Se tiene endpoints para package, employee, company, shipment, shipment/package.
+
+
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review .
+
+El despliegue del backend:
+
+Para el despliegue del backend desarrollado en java lo realizamos en Microsoft Azure:
+
+En Microsoft azure se crea una web app:
+
+
+
+
+
+Luego, en deployment configuramos el repositorio de la organización y elegimos la rama deployment del github del reposritorio SoftRoute-Backend.
+
+
+Aquí podemos observar el perfil de la aplicación en despliegue:
+
+
+
+
+
+Finalmente, el despliegue del backend se observa en el siguiente link: https://softroute-backend.azurewebsites.net/
+
+
+
+Para el despliegue de la aplicación web desarrollada en angular se eligió Netlify.
+
+Para ello debemos ejecutar el comando “ng build”:
+
+
+
+Luego desplegamos la aplicación en Netlify, para ello debemos insertar la carpeta dist que generó el comando “ng build”.
+
+
+
+
+
+
+Luego de realizar la carga de los archivos correspondientes, podemos observar la aplicación web ya desplegada.
+
+
+
+#### 6.2.2.8. Team Collaboration Insights during Sprint.
+
+La colaboración del equipo durante el desarrollo del sprint se observa en dos repositorios de la organización.
+
+Evidencia de colaboración en la realización del frontend de la aplicación web.
+
+
+
+Evidencia de colaboración en la realización del backend de la aplicación web.
+
+### 6.2.3. Sprint 3
+#### 6.2.3.1. Sprint Planning 2.
+
+
+
+#### 6.2.3.2. Sprint Backlog 2.
+Para el desarrollo sprint 3 nos ayudamos de la herramienta de trello, en ello se evidencia las tareas culminados para esta entrega.
+
+
+Link: https://trello.com/b/z1A8QqhP/sprint-3
+
+
+
+
+#### 6.2.3.3. Development Evidence for Sprint Review.
+
+| Branch               | Commit Id                                 | Commit Message                                      | Commited on (Date) |
+|----------------------|-------------------------------------------|-----------------------------------------------------|--------------------|
+| geat/security        | d7b8a82dacf6ce0018adf2d2208de0340c85324e | feat: added authentication jwt                      | 12/11/23           |
+| feat/ShipmentTracking | 8d8fecbfdb0f0f876a479e370db9c4fc9160b81a | feat: added tracking and shipment relationship      | 12/11/23           |
+| feature/dth22        | 68ac0e8fad8d394383b4170fd50044c38ca10749 | feat: created service for DHT22 sensor              | 18/11/23           |
+| feature/dth22        | 8a81a18baa37f66489fab57fa88893a2faae74cc | feat: added relation between DHT22 and Shipment      | 18/11/23           |
+| develop              | dafa8d097218c1b4ab682acbd9feee2dda702fa2 | feat: merge feature/dth22 into develop               | 18/11/23           |
+| develop              | 29b1c75e510ab22a27391f0a7fb1b307b32f63aa | fixed tracking and shipment relationship            | 21/11/23           |
+
+
+del backend
+
+| Branch               | Commit Id                                 | Commit Message                        | Commited on (Date) |
+|----------------------|-------------------------------------------|---------------------------------------|--------------------|
+| develop              | 39da991389e11fa6e788a8218681d251dd41ce51 | feat: Added welcome and login screen  | 10/11/23           |
+| develop              | 73a733fadf73ae647cae20230e647d27eddf0409 | feat: Added search by code            | 10/11/23           |
+| develop              | 83105ddadf1313dadd32775219a6474f9dc95a1f | feat: Added temperature indicator     | 10/11/23           |
+| develop              | 09af1d405056572e4000ae8ceddff9115438420f | feat: Added temperature dynamic change | 10/11/23           |
+| feat/tracking-shipment | 6a305cf111cb6242d60b539e0ef980834d252657 | feat: Added dht22 connection          | 18/11/23           |
+
+
+
+#### 6.2.3.4. Testing Suite Evidence for Sprint Review.
+
+| Branch               | Commit Id                                 | Commit Message                        | Commited on (Date) |
+|----------------------|-------------------------------------------|---------------------------------------|--------------------|
+| develop              | 39da991389e11fa6e788a8218681d251dd41ce51 | feat: Added welcome and login screen  | 10/11/23           |
+| develop              | 73a733fadf73ae647cae20230e647d27eddf0409 | feat: Added search by code            | 10/11/23           |
+| develop              | 83105ddadf1313dadd32775219a6474f9dc95a1f | feat: Added temperature indicator     | 10/11/23           |
+| develop              | 09af1d405056572e4000ae8ceddff9115438420f | feat: Added temperature dynamic change | 10/11/23           |
+| feat/tracking-shipment | 6a305cf111cb6242d60b539e0ef980834d252657 | feat: Added dht22 connection          | 18/11/23           |
+
+
+#### 6.2.3.5. Execution Evidence for Sprint Review.
+
+Para esta entrega se desarrolló el backend, IoT y el frontend de la aplicación web. Asimismo, se realizó el testeo de los endpoint en el backend desplegado. Finalmente, se desplegó una base de datos para poder almacenar los usuarios y encomiendas de manera persistente.
+
+
+
+upc-pre-202302-si572-sw72-SoftRoute-exe-evidence-tf.mp4
+
+#### 6.2.3.6. Services Documentation Evidence for Sprint Review.
+
+El service documentation elaborado en el backend es el siguiente:
+
+En las siguientes imágenes se observan los controller desarrollados para el backend. Se tiene endpoints para package, employee, company, shipment, shipment/package. Asi mismo se evidencia los datos de localización y datos de temperatura.
+
+#### 6.2.3.7. Software Deployment Evidence for Sprint Review
+
+El despliegue del backend:
+
+Para el despliegue del backend desarrollado en java lo realizamos en Microsoft Azure:
+
+En Microsoft azure se crea una web app:
+
+
+
+Luego, en deployment configuramos el repositorio de la organización y elegimos la rama deployment del github del reposritorio SoftRoute-Backend.
+
+
+
+Luego, en deployment configuramos el repositorio de la organización y elegimos la rama deployment del github del reposritorio SoftRoute-Backend.
+
+
+
+
+
+Finalmente, el despliegue del backend se observa en el siguiente link: https://sofroute.azurewebsites.net/
+
+
+
+Para el despliegue de la aplicación web desarrollada en angular se eligió Netlify.
+
+Para ello debemos ejecutar el comando “ng build”:
+
+
+
+
+Luego desplegamos la aplicación en Netlify, para ello debemos insertar la carpeta dist que generó el comando “ng build”.
+
+
+
+
+
+Luego de realizar la carga de los archivos correspondientes, podemos observar la aplicación web ya desplegada.
+
+
+Link. https://softroute.netlify.app
+
+#### 6.2.3.8. Team Collaboration Insights during Sprint.
+
+La colaboración del equipo durante el desarrollo del sprint se observa en dos repositorios de la organización.
+
+Evidencia de colaboración en la realización del web app.
+
+
+Evidencia de colaboración en la realización del mobile app.
+
+
+Evidencia de colaboración en la realización del backend de la aplicación web.
 
 ---
 ## 6.3. Validation Interviews.
 
 
-
 ### 6.3.1. Diseño de Entrevistas.
 
+Preguntas generales
+
+1. ¿Cuál es su nombre completo?
+2. ¿Qué edad tiene?
+3. ¿En qué lugar reside actualmente?
+
+Preguntas para segmentos de trabajadores de agencia de envío
+
+4. ¿Qué te parece el diseño de landing page?
+5. ¿El contenido mostrado le motiva a registrarse en la aplicación?
+6. ¿Desde su punto de vista la aplicación le muestra una interfaz fácil de utilizar?
+- Si su respuesta es sí: ¿Por qué?
+- Si su respuesta es no: ¿Por qué?
+7. ¿Qué opina acerca de los mensajes mostrados al cometer un error? Por ejemplo, iniciar sesión con un correo no registrado.
+8. ¿Considera que la funcionalidad de registro de encomiendas le es de utilidad?
+9. ¿Cree que se debería mejorar alguna funcionalidad?
+
+Preguntas para segmentos de clientes de agencia de envío
+
+10. ¿Qué te parece el diseño de landing page?
+11. ¿El contenido mostrado le motiva a registrarse en la aplicación?
+12. ¿Desde su punto de vista la aplicación le muestra una interfaz fácil de utilizar?
+- Si su respuesta es sí: ¿Por qué?
+- Si su respuesta es no: ¿Por qué?
+13. ¿Qué opina acerca de los mensajes mostrados al cometer un error? Por ejemplo, iniciar sesión con un correo no registrado.
+14. ¿Considera que la funcionalidad de consultar el estado de su encomienda le es de utilidad?
+15. ¿Cree que se debería mejorar alguna funcionalidad?
 
 
 
 
 ---
 ### 6.3.2. Registro de Entrevistas.
+Segmento de trabajadores de empresas
+
+Entrevista 1
+
+
+
+
+Nombres: Dominik Mendoza
+
+Edad: 24
+
+Lugar de residencia: Cusco - Perú
+
+Resumen de entrevista:
+
+Considera que el diseño de la landing page es bastante interactivo y tiene una adecuada tipo y tamaño de letra. Observa que el landing page está bien organizado por sus segmentos y características que desea mostrar. Además, menciona que si estuviera dispuesto a registrarse en la aplicación luego de observar el landing page. Luego de interactuar con la aplicación, sostiene que los campos de la aplicación comunican lo que se desea hacer en la app web. Los mensajes de errores mostrados son necesarios para poder corregirlos y no truncarse en una acción que no tiene solución. En cuando al registro de un paquete está muy bien porque los campos que su empresa necesita para indicar el envío de una encomienda son los necesarios. Por otro lado, se puede mejorar la aplicación web al agregar un mensaje en cada encomienda y no solo una descripción.
+
+Entrevista 2
+
+
+
+
+Nombres: Branco Villegas Peralta
+
+Edad: 23 años
+
+Lugar de residencia: Ventanilla
+
+Resumen de la entrevista:
+
+Se encuentra trabajando en una empresa de agencia de envíos. El landing page le pareció bastante bien por los colores que observo Observa todos los ítems de manera sencilla y comprende el objetivo de la empresa y al observa el nombre de los integrantes se siente en confianza. Considera que el tipo de letra y el color son opimos para no cansar la vista del usuario. Después de ello, al registrase en la aplicación e iniciar sesión muestra el tracking y el historial de los envíos realizados. Le parece que los mensajes de error para poder direccionar en las funciones que debe realizar los usuarios. Las funcionalidades están optimas y solo se debe mejorar el diseño de la aplicación web.
+
+  Entrevista 3 
+
+
+
+
+
+Nombres: Tania Figueroa Bautista
+
+Edad: 21 años
+
+Lugar de residencia: San Miguel
+
+Resumen de la entrevista:
+
+Tania trabaja en una empresa dedicada al rubro de envíos y recepción de encomiendas de Lima a otras provincias y viceversa. En la entrevista, ella informa que la landing page presenta un diseño intuitivo y de fácil comprensión con lo que ha podido encontrar información acorde a su área laboral lo que la motiva a usar la aplicación. Asimismo, menciona que la aplicación es fácil de usar y le facilita la labor de registrar un paquete. Por otro lado, la funcionalidad del rastreo en tiempo real de paquetes le ayuda a saber en dónde se encuentra un paquete en un momento determinado en caso se presente algún tipo de retraso. Finalmente, ella menciona que la aplicación ya cubre todas sus necesidades por lo que no se debería agregar más funcionalidades por el momento.
+
+Entrevista 4
+
+
+
+
+Nombres: Lucia Casablancas Olivera
+
+Edad: 22 años
+
+Lugar de residencia: San Miguel
+
+Resumen de la entrevista:
+
+Lucía, una estudiante de Medicina Humana. Con la llegada de la pandemia, el mundo cambió y Lucía se vio en la necesidad de adaptarse a nuevas formas de gestionar su tiempo y recursos. Lo que más le ha cautivado de esta aplicación es su diseño excepcional, que combina la elegancia con la simplicidad. La interfaz es tan intuitiva que Lucía se siente cómoda usándola desde el primer momento.
+
+La aplicación le parece muy interesante ya que no tendría que preocuparse por largas esperas en oficinas de correos ni por trámites engorrosos. Lucía puede concentrarse en su formación médica sin distracciones innecesarias.
+
+En resumen, Lucía ha encontrado en esta aplicación una herramienta que no solo le simplifica la vida, sino que también le permite abordar sus responsabilidades académicas y personales con mayor confianza y comodidad.
+
 
 
 
@@ -1814,8 +2205,50 @@ Link: https://trello.com/b/taOGp3JV/sprint-1
 
 ---
 ### 6.3.3. Evaluaciones según heurísticas.
+Website a evaluar:
+
+Sofroute Web App
+
+Tareas a evaluar:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+Como Usuario:
+
+Registrar un usuario nuevo
+
+Iniciar de sesión en la plataforma
+
+Visualización del perfil digital
+
+Como Agencia de envío:
+
+Registrar un envío
+
+Visualizar los envíos y su estado
+
+Visualizar el historial de todos los envíos
+
+Como Remitente:
+
+Ver estado y ubicación del envió
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Funcionalidades relacionadas con las notificaciones e inventarios.
 
 
+
+ESCALA DE SEVERIDAD:
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad.
+
+
+| Nivel | Descripción                                                                                                       |
+|-------|-------------------------------------------------------------------------------------------------------------------|
+| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                 |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.            |
 
 
 ---
