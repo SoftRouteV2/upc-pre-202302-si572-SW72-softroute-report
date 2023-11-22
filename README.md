@@ -283,6 +283,28 @@ En adición, se ha acordado con el equipo tener reuniones semanales en donde se 
     <p align="justify">
         En el desarrollo del trabajo parcial el equipo, diseñó los wireframes y mock-ups de la aplicación a desarrollar. Previamente, se eligió los estilos de web, IoT applications móvil. Por ello, es importante estar actualizado con las soluciones de desarrollo implementadas como equipo.
     </p>
+    <p><strong>TF</strong></p>
+    <p align="justify">
+        Carrillo Mainicta, Michael 
+
+Para impulsar el desarrollo del proyecto final, adoptamos la metodología de sprints, asignando responsabilidades específicas a cada miembro del equipo. Esta planificación detallada y la ejecución ordenada resultaron fundamentales para alcanzar los objetivos de manera eficiente.
+
+Cierto Espiritu, Abel Angel
+
+Para avanzar en la entrega del proyecto final, el equipo adoptó el modelo de sprint, asignando tareas específicas a cada miembro. Se estableció un cronograma para inspeccionar y enviar actualizaciones periódicas a la base de datos. Esta organización eficiente se llevó a cabo de manera sistemática durante los sprints, contribuyendo al progreso ordenado del proyecto.
+
+Huaman Huaranga, Lennin Daniel
+
+Con el objetivo de avanzar en la culminación del proyecto, optamos por implementar el modelo de sprint, distribuyendo tareas específicas entre los integrantes del equipo. La ejecución de este enfoque, respaldada por un calendario estructurado, facilitó un avance coherente y organizado en cada etapa del proyecto
+
+Valencia Rivera, Fiorella Viviana
+
+Para facilitar el avance en la entrega del proyecto final, optamos por implementar el modelo de sprint, asignando responsabilidades particulares a cada miembro del equipo. Se diseñó un calendario para revisar y enviar actualizaciones regulares a la base de datos. Esta estructura organizativa eficiente se ejecutó de manera sistemática a lo largo de los sprints, promoviendo así un progreso ordenado del proyecto
+
+Zurita Palacios, De la Mar Geronimo
+
+En nuestra estrategia para completar el proyecto final, decidimos emplear un enfoque basado en sprints, asignando roles específicos a cada miembro del equipo. Esta táctica nos permitió mantener un ritmo constante y lograr una progresión sistemática a lo largo de las fases del proyecto </p>
+
 </td>
     </tr>
     <tr>
