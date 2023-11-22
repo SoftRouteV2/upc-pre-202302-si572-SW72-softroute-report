@@ -1536,28 +1536,211 @@ Por último, se tiene el flujo de crear pedido .
 # Capítulo VI: Product Implementation, Validation & Deployment
 ## 6.1. Software Configuration Management
 ### 6.1.1. Software Development Environment Configuration.
+En esta sección se describen cada uno de los productos software que empleamos en el proyecto. Es importante porque permite que los integrantes colaboren en el ciclo de vida del proyecto. El formato que tiene esta sección consiste en lo siguiente:  descripción del producto software y en la parte inferior una url de referencia.
 
+Project Management:
+
+Para el manejo del proyecto empleamos 2 herramientas. Por un lado, usamos Trello, para organizar nuestras actividades semanales ya sea por realizar, en proceso o finalizadas. Todo ello mediante notas de forma sencilla e intuitiva. Por otro lado, utilizamos Google Meet para las reuniones de equipo,  ya que es una aplicación web y resulta cómodo para todo el equipo. Ambas herramientas se despliegan en el navegador, son gratuitas y para su uso es necesario registrarse.
+
+Trello: https://trello.com/
+
+Google Meet: https://meet.google.com/
+
+Product UX/UI Design:
+
+Respecto al diseño empleamos las siguientes 4 herramientas:
+
+Utilizamos UXPressia en la creación de los User personas, el Customer journey map, Empathy map e Impact map porque cuenta con herramientas que nos facilitan el desarrollo de procesos de experiencia del usuario. Nos permite colaborar en equipo, es gratuito y para hacer uso del software necesitamos registrarnos.
+
+Para la creación de los wireframes, mockups y mobile applications prototyping se utilizó Figma. Figma es una herramienta de diseño colaborativo, para utilizarla debemos registrarnos en su plataforma.
+
+Empleamos Lucidchart para el desarrollo de los wireflows, user flows y diagramas UML. En ella podemos crear diagramas y procesos secuenciales, funciona en el navegador y para usarla es necesario crear una cuenta.
+
+Respecto al database design usamos Vertabelo, es una aplicación web con herramientas preparadas para el modelamiento profesional y que nos permite trabajar en equipo. Requerimos registrarnos para usarla y es gratuita.
+
+UXPressia: https://uxpressia.com/
+
+Figma: https://www.figma.com/
+
+Lucidchart: https://www.lucidchart.com/
+
+Vertabelo: https://www.vertabelo.com/
+
+Software Development:
+
+Landing Page:  Para la landing page empleamos los siguientes lenguajes, no es necesario instalar ninguno, ya que estos son interpretados por nuestro navegador.
+
+HTML5: Es un lenguaje de marcado que nos permite construir la estructura de sitios web y aplicaciones más potentes que soportan multimedia.
+
+CSS3: Con él ilustramos el aspecto, el estilo y el formato de nuestro landing page.
+
+JavaScript: Es un lenguaje orientado a objetos, nos permite darle dinamismo a la página web.
+
+Mobile Applications:
+
+Para la realización de nuestra aplicación móvil, utilizaremos los siguientes entornos de desarrollo.
+
+Kotlin: Es un lenguaje de programación moderno y orientado a objetos que se ejecuta en la Máquina Virtual de Java (JVM). Es el lenguaje de programación oficial para el desarrollo de aplicaciones de Android.
+
+Jetpack Compose: Es el kit de herramientas moderno de Android para compilar IU nativas. Permite construir interfaces de usuario más fácilmente y de manera más eficiente.
+
+Flutter: Es un kit de desarrollo de software de código abierto creado por Google para crear aplicaciones móviles nativas para iOS y Android desde una sola base de código. Utiliza el lenguaje de programación Dart y cuenta con su propio conjunto de widgets personalizados y herramientas de desarrollo.
+
+Kotlin: https://kotlinlang.org
+
+Jetpack Compose: https://developer.android.com/jetpack/compose?hl=es-419
+
+Flutter: https://flutter.dev
+
+Software Testing:
+
+Según IBM (2022), “Las pruebas de software son el proceso de evaluar y verificar que un producto o aplicación de software hace lo que se supone que debe hacer”. Por ello, para las pruebas de testeo software, tanto de la landing page como de la aplicación web, se emplearon las herramientas de desarrollador de múltiples navegadores web como Google Chrome, Microsoft Edge, Brave y Mozilla Firefox. Estos navegadores son aplicaciones desktop y mobile gratuitos. En el caso de desktop podemos instalarlos desde sus sitios oficiales, en el caso de mobile, desde nuestra tienda de aplicaciones favorita.
+
+Google Chrome: https://www.google.com/chrome/
+
+Microsoft Edge: https://www.microsoft.com/en-us/edge
+
+Brave: https://brave.com/
+
+Mozilla Firefox: https://www.mozilla.org/en-US/firefox/browsers/
+
+Software Deployment:
+
+Landing Page:
+
+Para el despliegue de nuestra Landing Page utilizamos el servicio gratuito de Netlify.
+
+Netlify: https://www.netlify.com/
 
 
 
 
 ---
 ### 6.1.2. Source Code Management.
+La gestión y estructuración de las modificaciones se llevaron a cabo a través de GitHub. A continuación, se proporcionan los enlaces de la página de inicio y las pruebas de aceptación:
 
+Landing Page:
 
+https://6510f678a171f143f95de96d--vermillion-paprenjak-0251b7.netlify.app/
 
+Acceptance Tests:
+
+GitFlow:
+
+Para el GitFlow seguimos lo establecido en “A successful Git branching model” de Vincent Driessen. Según su división podemos diferenciar 2 grupos de ramas.
+
+The main branches:
+
+main: En esta rama almacenaremos las versiones lanzadas, las publicaciones oficiales de nuestro repositorio.
+
+develop: Esta rama se utilizará como rama de integración para las “feature” branches. Una vez el “head” alcance un estado estable y el equipo lo considere listo para ser lanzado, se unirá a la rama release.
+
+Supporting branches:
+
+feature: En estas ramas trabajaremos las features que se unirán a la rama develop.
+
+release: Esta rama la utilizaremos para preparar el lanzamiento de una nueva versión en la rama “main”. En ella podemos corregir pequeños bugs y preparar datos de la versión. Esta rama liberará la rama “develop” de estas preparaciones, evitando el retraso en el desarrollo mientras se prepara el lanzamiento.
+
+feat: La utilizaremos cuando nuestra última versión en la rama “main” necesite un parche crítico que no puede esperar a un siguiente lanzamiento.
+
+En síntesis, tenemos la siguiente tabla:
+
+| Types of branches | May branch off | Must merge back into | Branch naming convention |
+|-------------------|-----------------|----------------------|--------------------------|
+| feature           | develop         | develop              | anything except master, develop, release-*, or hotfix-* |
+| release           | develop         | develop and master   | release-*                |
+| hotfix            | master          | develop and master   | hotfix-*                 |
+>Tabla de relaciones entre ramas y su nombre por convención. Fuente: elaboración propia.
+A successful Git branching model: https://nvie.com/posts/a-successful-git-branching-model/
+
+Release Versioning Conventions:
+
+Para el formato de versiones aplicamos “Semantic Versioning 2.0.0”. Se emplean X, Y y Z, las cuales representan números enteros positivos e incrementan de uno en uno:
+
+(X.Y.Z)
+
+En donde:
+
+X: Representa una versión mayor. Aquí se encuentran cambios en el API que NO son compatibles con las versiones anteriores. Empezando desde 0 para el desarrollo inicial y 1 cuando esté disponible al público para ser usado. Por convención Y y Z se reiniciarán a 0 cuando este incremente.
+
+Y: Versión menor. Cambios que SI son compatibles con las versiones anteriores. Aquí incluiremos los commits desde las “release branches” cada vez que se agreguen nuevas funcionalidades. Por convención Z se reiniciará a 0 cuando este incremente.
+
+Z: Parches y correcciones de errores menores. Aquí incluiremos los commits desde la “hotfix branch” que se unen al “master”.
+
+Semantic Versioning Specification: https://semver.org/
+
+A continuación un ejemplo para una HOTFIX BRANCH:
+
+Diagrama, Esquemático
+
+Descripción generada automáticamente
+
+Nomenclatura X.Y.Z en GitFlow. Fuente: https://nvie.com/img/hotfix-branches@2x.png
+
+Commit Conventions:
+
+El formato de nuestros commits sigue la estructura de los “Conventional Commits”  con el objetivo de proporcionar una lectura sencilla del historial de confirmaciones. Por ello seguimos el siguiente formato:
+
+<type>[optional scope]: <description>
+
+Donde:
+
+type: Especifica el tipo de cambio realizado, únicamente puede ser fix, feat o BREAKING CHANGE.
+
+scope: Es el alcance que tiene nuestro commit.
+
+description: Es un breve resumen de los cambios de código.
+
+Conventional Commits: https://www.conventionalcommits.org/
+
+Diagrama
+
+Descripción generada automáticamente
+
+Proceso GitFlow. Fuente: https://nvie.com/img/git-model@2x.png
 
 
 ---
 ### 6.1.3. Source Code Style Guide & Conventions.
 
+Para el desarrollo de la parte de HTML se usará el HTML Style Guide and Coding que contiene las convenciones y la guía de estilos para este lenguaje. El nombre del archivo a crear como elemento será “index.html”. Además, se tienen como referencia a este sitio web, donde se especifica la forma correcta de escribir los códigos en html: https://www.w3schools.com/html/html5_syntax.asp
 
+Para el lenguaje CSS se utilizará el Google HTML/CSS Style Guide, ya que contiene las convenciones que se deben tener en cuenta al trabajar con dicho lenguaje. El elemento de archivo será nombrado como “styles.css”. Para guiarnos de las buenas prácticas accederemos mediante este enlace: https://google.github.io/styleguide/htmlcssguide.html
+
+Para el lenguaje JavaScript se usará JavaScript Coding Conventions debido a que se especifican las convenciones para tener en cuenta en este lenguaje. La nomenclatura del archivo creado tendrá el nombre “main.js”. Se puede acceder mediante este enlace: https://www.w3schools.com/js/js_conventions.asp
+
+Para el lenguaje Gherkin se usará las convenciones mencionadas en Make your Gherkin Specifications More Readable con el fin de utilizar buenas prácticas que nos permitan comprender mejor lo desarrollado. Los archivos creados tendrán la extensión “.feature”. Se puede conocer la forma de escribir en lenguaje Gerkhin mediante este enlace: https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/
+
+Para el desarrollo en Flutter se tiene como referencia las convenciones ya definidas en “Effective Dart: Style” y “Style guide for Flutter repo” definidas por el equipo de Flutter. Esto con el objetivo de mantener un formato entendible y que ayude en el mantenimiento del sistema. Se puede visualizar las convenciones en los siguientes enlaces:  
+https://dart.dev/effective-dart/style
+https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo
+
+Para el uso de Java Spring Boot en nuestra API se tendrá en cuenta el Good Coding Standards in Spring Boot
+
+Spring Boot es un marco de alto rendimiento a nivel empresarial muy utilizado y muy popular. En el siguiente enlace se presentan algunas prácticas recomendadas y algunos consejos que puede utilizar para mejorar su aplicación Spring Boot y hacerla más eficiente.
+
+Se puede visualizar las convenciones en los siguientes enlaces:  
+https://levelup.gitconnected.com/how-to-follow-good-coding-standards-in-spring-boot-a22dd735e3ec
 
 
 ---
 ### 6.1.4. Software Deployment Configuration.
 
+En esta sección abordaremos el proceso para desplegar nuestra Landing Page mediante el servicio gratuito de GitHub Pages. A continuación, describiremos los pasos necesarios para el desarrollo.
 
+1) Primero crearemos un apartado en nuestra organización.
+
+Una captura de pantalla de un celular
+
+Descripción generada automáticamente con confianza media
+
+2) Crearemos un nuevo repositorio para guardar los archivos de nuestra Landing Page
+
+Captura de pantalla de un celular
+
+Descripción generada automáticamente
+
+3) Procedemos a configurar el repositorio para el despliegue de la Landing Page, para ello necesitamos culminar el sprint 1.
 
 
 ---
@@ -1568,7 +1751,13 @@ Por último, se tiene el flujo de crear pedido .
 
 
 #### 6.2.1.2. Sprint Backlog 1.
+Para el Desarrollo de landing page nos ayudamos de la herramienta de trello, en ello se evidencia los user stories culminados para esta entrega.
 
+Interfaz de usuario gráfica
+
+Descripción generada automáticamente
+
+Link: https://trello.com/b/taOGp3JV/sprint-1
 
 
 #### 6.2.1.3. Development Evidence for Sprint Review.

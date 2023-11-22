@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1aef0ef-adb5-485a-a47b-386a97856f63" name="Changes" comment="feat: add solution software design">
+    <list default="true" id="d1aef0ef-adb5-485a-a47b-386a97856f63" name="Changes" comment="fix: model document">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Capitulo_III_Requirements_Specification.md" beforeDir="false" afterPath="$PROJECT_DIR$/Capitulo_III_Requirements_Specification.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Capitulo_IV_Solution_Software_Design.md" beforeDir="false" afterPath="$PROJECT_DIR$/Capitulo_IV_Solution_Software_Design.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Capítulo_I_Introducción.md" beforeDir="false" afterPath="$PROJECT_DIR$/Capítulo_I_Introducción.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +44,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2VxXdQXrhlT75HlAMfjMNxJqpCB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -59,7 +60,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "fix/format__document",
-    "last_opened_file_path": "/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/images/abelcierto.jpg",
+    "last_opened_file_path": "/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,6 +69,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="ImportExportFile.TargetDir.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/.." />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -81,7 +88,9 @@
       <workItem from="1695785464017" duration="102000" />
       <workItem from="1695801538934" duration="2222000" />
       <workItem from="1695843125191" duration="640000" />
-      <workItem from="1696447607444" duration="15412000" />
+      <workItem from="1696447607444" duration="16290000" />
+      <workItem from="1699129966926" duration="82000" />
+      <workItem from="1700678755071" duration="812000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add logo image">
       <option name="closed" value="true" />
@@ -179,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695786352468</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fix: model document">
+      <option name="closed" value="true" />
+      <created>1696476402994</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1696476402994</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +225,7 @@
     <MESSAGE value="fix: image positions" />
     <MESSAGE value="fix: fixed position images" />
     <MESSAGE value="fix: fixed name teacher" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: fixed name teacher" />
+    <MESSAGE value="fix: model document" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: model document" />
   </component>
 </project>
