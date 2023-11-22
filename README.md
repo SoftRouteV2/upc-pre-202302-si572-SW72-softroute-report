@@ -66,7 +66,9 @@ En adición, se ha acordado con el equipo tener reuniones semanales en donde se 
 <div>
 
 # Indice
+
 <!-- TOC -->
+* [Indice](#indice)
 * [Student Outcome](#student-outcome)
 * [Capítulo I: Introducción](#capítulo-i-introducción)
   * [1.1 Startup Profile](#11-startup-profile)
@@ -181,8 +183,25 @@ En adición, se ha acordado con el equipo tener reuniones semanales en donde se 
       * [6.2.1.4. Testing Suite Evidence for Sprint Review.](#6214-testing-suite-evidence-for-sprint-review)
       * [6.2.1.5. Execution Evidence for Sprint Review.](#6215-execution-evidence-for-sprint-review)
       * [6.2.1.6. Services Documentation Evidence for Sprint Review.](#6216-services-documentation-evidence-for-sprint-review)
-      * [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
-      * [6.2.1.8. Team Collaboration Insights during Sprint.](#6218-team-collaboration-insights-during-sprint)
+      * [6.2.1.7. Team Collaboration Insights during Sprint.](#6217-team-collaboration-insights-during-sprint)
+    * [6.2.2. Sprint 2](#622-sprint-2)
+      * [6.2.2.1. Sprint Planning 2.](#6221-sprint-planning-2)
+      * [6.2.2.2. Sprint Backlog 2.](#6222-sprint-backlog-2)
+      * [6.2.2.3. Development Evidence for Sprint Review.](#6223-development-evidence-for-sprint-review)
+      * [6.2.2.4. Testing Suite Evidence for Sprint Review.](#6224-testing-suite-evidence-for-sprint-review)
+      * [6.2.2.5. Execution Evidence for Sprint Review.](#6225-execution-evidence-for-sprint-review)
+      * [6.2.2.6. Services Documentation Evidence for Sprint Review.](#6226-services-documentation-evidence-for-sprint-review)
+      * [6.2.2.7. Software Deployment Evidence for Sprint Review .](#6227-software-deployment-evidence-for-sprint-review-)
+      * [6.2.2.8. Team Collaboration Insights during Sprint.](#6228-team-collaboration-insights-during-sprint)
+    * [6.2.3. Sprint 3](#623-sprint-3)
+      * [6.2.3.1. Sprint Planning 2.](#6231-sprint-planning-2)
+      * [6.2.3.2. Sprint Backlog 2.](#6232-sprint-backlog-2)
+      * [6.2.3.3. Development Evidence for Sprint Review.](#6233-development-evidence-for-sprint-review)
+      * [6.2.3.4. Testing Suite Evidence for Sprint Review.](#6234-testing-suite-evidence-for-sprint-review)
+      * [6.2.3.5. Execution Evidence for Sprint Review.](#6235-execution-evidence-for-sprint-review)
+      * [6.2.3.6. Services Documentation Evidence for Sprint Review.](#6236-services-documentation-evidence-for-sprint-review)
+      * [6.2.3.7. Software Deployment Evidence for Sprint Review](#6237-software-deployment-evidence-for-sprint-review)
+      * [6.2.3.8. Team Collaboration Insights during Sprint.](#6238-team-collaboration-insights-during-sprint)
   * [6.3. Validation Interviews.](#63-validation-interviews)
     * [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
     * [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
@@ -193,7 +212,6 @@ En adición, se ha acordado con el equipo tener reuniones semanales en donde se 
 * [Bibliografía](#bibliografía)
 * [Anexos](#anexos)
 <!-- TOC -->
-
 </div>
 
 ---
