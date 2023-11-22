@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1aef0ef-adb5-485a-a47b-386a97856f63" name="Changes" comment="feat: add cap 7">
+    <list default="true" id="d1aef0ef-adb5-485a-a47b-386a97856f63" name="Changes" comment="feat: update indice">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -218,7 +218,31 @@
       <option name="project" value="LOCAL" />
       <updated>1700683349462</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="feat: add cap 7">
+      <option name="closed" value="true" />
+      <created>1700683374076</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1700683374076</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: update indice">
+      <option name="closed" value="true" />
+      <created>1700683502421</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1700683502421</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: update indice">
+      <option name="closed" value="true" />
+      <created>1700683786935</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1700683786935</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +274,7 @@
     <MESSAGE value="fix: model document" />
     <MESSAGE value="feat: add cap 6" />
     <MESSAGE value="feat: add cap 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add cap 7" />
+    <MESSAGE value="feat: update indice" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: update indice" />
   </component>
 </project>
