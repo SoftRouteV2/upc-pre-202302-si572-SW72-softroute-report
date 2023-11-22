@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1aef0ef-adb5-485a-a47b-386a97856f63" name="Changes" comment="fix: model document">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d1aef0ef-adb5-485a-a47b-386a97856f63" name="Changes" comment="feat: update indice">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,23 +50,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS important messages",
-    "Notification.DoNotAsk-Vcs Important Messages": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "fix/format__document",
-    "last_opened_file_path": "/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Notification.DisplayName-DoNotAsk-Vcs Important Messages&quot;: &quot;VCS important messages&quot;,
+    &quot;Notification.DoNotAsk-Vcs Important Messages&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;fix/format__document&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="ImportExportFile.TargetDir.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -203,7 +202,47 @@
       <option name="project" value="LOCAL" />
       <updated>1700679585794</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat: add cap 6">
+      <option name="closed" value="true" />
+      <created>1700683045874</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1700683045874</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feat: add cap 7">
+      <option name="closed" value="true" />
+      <created>1700683349462</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1700683349462</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feat: add cap 7">
+      <option name="closed" value="true" />
+      <created>1700683374076</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1700683374076</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feat: update indice">
+      <option name="closed" value="true" />
+      <created>1700683502421</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1700683502421</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: update indice">
+      <option name="closed" value="true" />
+      <created>1700683786935</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1700683786935</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +272,9 @@
     <MESSAGE value="fix: fixed position images" />
     <MESSAGE value="fix: fixed name teacher" />
     <MESSAGE value="fix: model document" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: model document" />
+    <MESSAGE value="feat: add cap 6" />
+    <MESSAGE value="feat: add cap 7" />
+    <MESSAGE value="feat: update indice" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: update indice" />
   </component>
 </project>
