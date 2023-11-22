@@ -2250,11 +2250,67 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad.
 | 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.                 |
 | 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.            |
 
+TABLA RESUMEN:
+
+| #   | Problema                                             | Escala de Severidad | Heurística/Principio Violado(s)              |
+|-----|------------------------------------------------------|---------------------|---------------------------------------------|
+| 1   | La justificación del navbar no es la adecuada.       | 1                   | Usability: Consistencia y estándares       |
+| 2   | El contraste de los colores en el navbar no es ideal. | 1                   | Inclusive Design: Considera la situación del usuario |
+
+DESCRIPCIÓN DE PROBLEMAS:
+
+PROBLEMA #1: La justificación de las opciones del navbar no son los adecuados.
+
+
+
+Severidad:1
+
+Usability: Consistencia y estándares.
+
+Problema:
+
+Cuando un empleado inicia sesión en la plataforma, e ingresar al apartado de Home, se puede apreciar una inconsistencia en la justificación de las opciones del navbar.
+
+
+
+
+
+Recomendación:
+
+Se recomienda mejorar la justificación entre el logo de la App y las opciones del navbar. De esta forma, los usuarios podrán identificar de manera más rápida y clara la relación entre la marca y las funciones disponibles en la aplicación, lo que facilitará su navegación y experiencia de uso.
+
+
+
+PROBLEMA #2: El contraste de los colores en el navbar no es el idóneo.
+
+
+
+Severidad:1
+
+Inclusive Design: Considera la situación del usuario.
+
+Problema:
+
+Cuando un empleado inicia sesión en la plataforma, e ingresar al apartado de Home, se puede apreciar que no hay un buen contraste entre el color de las opciones del navbar y el color de fondo.
+
+
+
+
+Recomendación:
+
+Se recomienda mejorar el contraste entre el color de las opciones del navbar y el color de fondo.  De esta manera se mejorará la legibilidad y experiencia de usuario.
 
 ---
 ## 6.4. Video About-the-Product.
 
+https://www.youtube.com/watch?v=BLq7h1N8iGw
 
+## 6.5. Video About-the-Team.
+
+A continuación, presentamos una imagen que muestra la evidencia del video about the team realizado por el equipo.
+
+
+Link: video about the team.mp4
 
 # Conclusiones y recomendaciones.
 <p align="justify">
@@ -2266,11 +2322,17 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad.
     <p align="justify">
         Así mismo, se destacan mejoras importantes en aspectos como el problem statement y la definición de style guidelines para la aplicación web y móvil. Además, la colaboración efectiva y la asignación adecuada de tareas y responsabilidades fueron elementos clave para esta entrega.
     </p>
-    <p align="justify">
+En este último capítulo, nos enfocamos en la Implementación del Producto, llevamos a cabo las validaciones correspondientes y ejecutamos el despliegue de nuestra solución, incluyendo la creación de la página de inicio (landing page). De manera similar, aplicamos todos los conocimientos adquiridos en las últimas semanas del curso, utilizando específicamente la plataforma Wokwi. En este contexto, empleamos el sensor DHT22 para capturar los datos de temperatura y humedad de nuestros paquetes. 
+
+
+
+Además, incorporamos el sensor GPS Softroute Breakout para obtener información en tiempo real sobre la latitud y longitud de nuestros paquetes. En resumen, este capítulo representa la culminación de nuestro producto, permitiéndonos implementar una solución completa que integra tecnologías clave para el monitoreo efectivo de nuestros envíos.
+
+<p align="justify">
         En resumen, hemos demostrado eficiencia en la coordinación, colaboración y ejecución de tareas relacionadas con el desarrollo del Landing Page y el proyecto en general, representando un avance importante en la implementación de la solución propuesta para el proyecto.
     </p>
 
-# Video About-the-Team.
+
 
 # Bibliografía
 - Harsel, L. (03 de julio de 2020). Meta description: qué es y cómo describirla. Semrush. Recuperado de https://es.semrush.com/blog/meta-description/?kw=&cmp=LM_SRCH_DSA_Blog_Core_BU_ES&label=dsa_pagefeed&Network=g&Device=c&utm_content=589821277882&kwid=dsa-1064844088730&cmpid=11816984086&agpid=115746097678&BU=Core&extid=23623708102&adpos=&gclid=CjwKCAjw4JWZBhApEiwAtJUN0Fps3yugdCedfUJQ7P_Kr2wh_HZxXgq3iLzTFTG80iGJYAxgv5Dq2xoC2AwQAvD_BwE
@@ -2280,3 +2342,95 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad.
 - Ministerio de Transportes y Comunicaciones. (2020). Boletín Estadístico del Sector Postal – Primer Semestre 2020. Recuperado de https://cdn.www.gob.pe/uploads/document/file/1469163/Bolet%C3%ADn%20Estad%C3%ADstico%20del%20Sector%20Postal%20%E2%80%93%20Primer%20Semestre%202020.pdf
 
 # Anexos
+
+ANEXO A
+
+Entrevista a los segmentos objetivos
+
+
+
+Link: upc-pre-202302-si572-sw72-SoftRoute-interviews.mp4
+
+
+
+ANEXO B
+
+Exposición TB1
+
+Interfaz de usuario gráfica, Texto, Aplicación
+
+Descripción generada automáticamente
+
+Link:  upc-pre-202302-si572-sw72-SoftRoute-expo-tb1.mp4
+
+ANEXO C
+
+Exposición TP
+
+Interfaz de usuario gráfica
+
+Descripción generada automáticamente
+
+Link:   https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b561_upc_edu_pe/EfC8icWtUjpKnshq0Oa5l9YBWHum7A2ZOsIIcFP2CvN1oQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1FbWFpbCIsInJlZmVycmFsQXBwUGxhdGZvcm0iOiJXZWIiLCJyZWZlcnJhbE1vZGUiOiJ2aWV3In19&e=QHpNdW
+
+ANEXO D
+
+Exposición TB2
+
+Imagen que contiene Interfaz de usuario gráfica
+
+Descripción generada automáticamente
+
+Link:  upc-pre-202302-si572-sw72-SoftRoute-expo-tb2.mp4
+
+
+
+ANEXO E
+
+Exposición TF
+
+Interfaz de usuario gráfica, Aplicación
+
+Descripción generada automáticamente
+
+Link:  upc-pre-202302-si572-sw72-SoftRoute-expo-tf1.mp4
+
+ANEXO F
+
+About the Team
+
+Interfaz de usuario gráfica, Aplicación
+
+Descripción generada automáticamente
+
+Link:  upc-pre-202302-si572-sw72-SoftRoute-expo-tf1.mp4
+
+ANEXO G
+
+Entrevistas de validación
+
+Interfaz de usuario gráfica, Aplicación, Teams
+
+Descripción generada automáticamente
+
+Link:  upc-pre-202302-si572-SW72-SoftRoute- validation-sprint-2.mp4
+
+ANEXO H
+
+Repositorio de Github
+
+Captura de pantalla de un celular
+
+Descripción generada automáticamente
+
+Link: https://github.com/orgs/SoftRouteV2/repositories
+
+ANEXO I
+
+Prototypes Navigation
+
+Captura de pantalla de computadora
+
+Descripción generada automáticamente
+
+Enlace:  upc-pre-202302-si572- sw72-SoftRoute -prototype/product-navigation-sprint-1.mp4  
