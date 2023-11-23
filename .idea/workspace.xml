@@ -5,6 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1aef0ef-adb5-485a-a47b-386a97856f63" name="Changes" comment="feat: update indice">
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/46 en.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/cap6/branch.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +85,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,24 +102,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Notification.DisplayName-DoNotAsk-Vcs Important Messages&quot;: &quot;VCS important messages&quot;,
-    &quot;Notification.DoNotAsk-Vcs Important Messages&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;fix/format__document&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS important messages",
+    "Notification.DoNotAsk-Vcs Important Messages": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "fix/format__document",
+    "last_opened_file_path": "/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/50.png",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Resources/cap6" />
+    </key>
     <key name="ImportExportFile.TargetDir.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/.." />
@@ -89,6 +144,7 @@
       <workItem from="1696447607444" duration="16290000" />
       <workItem from="1699129966926" duration="82000" />
       <workItem from="1700678755071" duration="3222000" />
+      <workItem from="1700747121595" duration="5683000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add logo image">
       <option name="closed" value="true" />

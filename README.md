@@ -1578,7 +1578,7 @@ Por último, se tiene el flujo de crear pedido .
 ### 6.1.1. Software Development Environment Configuration.
 En esta sección se describen cada uno de los productos software que empleamos en el proyecto. Es importante porque permite que los integrantes colaboren en el ciclo de vida del proyecto. El formato que tiene esta sección consiste en lo siguiente:  descripción del producto software y en la parte inferior una url de referencia.
 
-Project Management:
+<b>Project Management:</b>
 
 Para el manejo del proyecto empleamos 2 herramientas. Por un lado, usamos Trello, para organizar nuestras actividades semanales ya sea por realizar, en proceso o finalizadas. Todo ello mediante notas de forma sencilla e intuitiva. Por otro lado, utilizamos Google Meet para las reuniones de equipo,  ya que es una aplicación web y resulta cómodo para todo el equipo. Ambas herramientas se despliegan en el navegador, son gratuitas y para su uso es necesario registrarse.
 
@@ -1586,7 +1586,7 @@ Trello: https://trello.com/
 
 Google Meet: https://meet.google.com/
 
-Product UX/UI Design:
+<b>Product UX/UI Design:</b>
 
 Respecto al diseño empleamos las siguientes 4 herramientas:
 
@@ -1606,9 +1606,9 @@ Lucidchart: https://www.lucidchart.com/
 
 Vertabelo: https://www.vertabelo.com/
 
-Software Development:
+<b>Software Development:</b>
 
-Landing Page:  Para la landing page empleamos los siguientes lenguajes, no es necesario instalar ninguno, ya que estos son interpretados por nuestro navegador.
+<b>Landing Page:</b>  Para la landing page empleamos los siguientes lenguajes, no es necesario instalar ninguno, ya que estos son interpretados por nuestro navegador.
 
 HTML5: Es un lenguaje de marcado que nos permite construir la estructura de sitios web y aplicaciones más potentes que soportan multimedia.
 
@@ -1616,7 +1616,7 @@ CSS3: Con él ilustramos el aspecto, el estilo y el formato de nuestro landing p
 
 JavaScript: Es un lenguaje orientado a objetos, nos permite darle dinamismo a la página web.
 
-Mobile Applications:
+<b>Mobile Applications:</b>
 
 Para la realización de nuestra aplicación móvil, utilizaremos los siguientes entornos de desarrollo.
 
@@ -1632,7 +1632,7 @@ Jetpack Compose: https://developer.android.com/jetpack/compose?hl=es-419
 
 Flutter: https://flutter.dev
 
-Software Testing:
+<b>Software Testing:</b>
 
 Según IBM (2022), “Las pruebas de software son el proceso de evaluar y verificar que un producto o aplicación de software hace lo que se supone que debe hacer”. Por ello, para las pruebas de testeo software, tanto de la landing page como de la aplicación web, se emplearon las herramientas de desarrollador de múltiples navegadores web como Google Chrome, Microsoft Edge, Brave y Mozilla Firefox. Estos navegadores son aplicaciones desktop y mobile gratuitos. En el caso de desktop podemos instalarlos desde sus sitios oficiales, en el caso de mobile, desde nuestra tienda de aplicaciones favorita.
 
@@ -1646,7 +1646,7 @@ Mozilla Firefox: https://www.mozilla.org/en-US/firefox/browsers/
 
 Software Deployment:
 
-Landing Page:
+<b>Landing Page:</b>
 
 Para el despliegue de nuestra Landing Page utilizamos el servicio gratuito de Netlify.
 
@@ -1665,23 +1665,23 @@ https://6510f678a171f143f95de96d--vermillion-paprenjak-0251b7.netlify.app/
 
 Acceptance Tests:
 
-GitFlow:
+<b>GitFlow:</b>
 
 Para el GitFlow seguimos lo establecido en “A successful Git branching model” de Vincent Driessen. Según su división podemos diferenciar 2 grupos de ramas.
 
 The main branches:
 
-main: En esta rama almacenaremos las versiones lanzadas, las publicaciones oficiales de nuestro repositorio.
+<b>main:</b> En esta rama almacenaremos las versiones lanzadas, las publicaciones oficiales de nuestro repositorio.
 
-develop: Esta rama se utilizará como rama de integración para las “feature” branches. Una vez el “head” alcance un estado estable y el equipo lo considere listo para ser lanzado, se unirá a la rama release.
+<b>develop:</b> Esta rama se utilizará como rama de integración para las “feature” branches. Una vez el “head” alcance un estado estable y el equipo lo considere listo para ser lanzado, se unirá a la rama release.
 
-Supporting branches:
+<b>Supporting branches:</b>
 
-feature: En estas ramas trabajaremos las features que se unirán a la rama develop.
+<b>feature:</b> En estas ramas trabajaremos las features que se unirán a la rama develop.
 
-release: Esta rama la utilizaremos para preparar el lanzamiento de una nueva versión en la rama “main”. En ella podemos corregir pequeños bugs y preparar datos de la versión. Esta rama liberará la rama “develop” de estas preparaciones, evitando el retraso en el desarrollo mientras se prepara el lanzamiento.
+<b>release: </b>Esta rama la utilizaremos para preparar el lanzamiento de una nueva versión en la rama “main”. En ella podemos corregir pequeños bugs y preparar datos de la versión. Esta rama liberará la rama “develop” de estas preparaciones, evitando el retraso en el desarrollo mientras se prepara el lanzamiento.
 
-feat: La utilizaremos cuando nuestra última versión en la rama “main” necesite un parche crítico que no puede esperar a un siguiente lanzamiento.
+<b>feat:</b> La utilizaremos cuando nuestra última versión en la rama “main” necesite un parche crítico que no puede esperar a un siguiente lanzamiento.
 
 En síntesis, tenemos la siguiente tabla:
 
@@ -1691,9 +1691,10 @@ En síntesis, tenemos la siguiente tabla:
 | release           | develop         | develop and master   | release-*                |
 | hotfix            | master          | develop and master   | hotfix-*                 |
 >Tabla de relaciones entre ramas y su nombre por convención. Fuente: elaboración propia.
+> 
 A successful Git branching model: https://nvie.com/posts/a-successful-git-branching-model/
 
-Release Versioning Conventions:
+<b>Release Versioning Conventions:</b>
 
 Para el formato de versiones aplicamos “Semantic Versioning 2.0.0”. Se emplean X, Y y Z, las cuales representan números enteros positivos e incrementan de uno en uno:
 
@@ -1701,23 +1702,24 @@ Para el formato de versiones aplicamos “Semantic Versioning 2.0.0”. Se emple
 
 En donde:
 
-X: Representa una versión mayor. Aquí se encuentran cambios en el API que NO son compatibles con las versiones anteriores. Empezando desde 0 para el desarrollo inicial y 1 cuando esté disponible al público para ser usado. Por convención Y y Z se reiniciarán a 0 cuando este incremente.
+<b>X:</b> Representa una versión mayor. Aquí se encuentran cambios en el API que NO son compatibles con las versiones anteriores. Empezando desde 0 para el desarrollo inicial y 1 cuando esté disponible al público para ser usado. Por convención Y y Z se reiniciarán a 0 cuando este incremente.
 
-Y: Versión menor. Cambios que SI son compatibles con las versiones anteriores. Aquí incluiremos los commits desde las “release branches” cada vez que se agreguen nuevas funcionalidades. Por convención Z se reiniciará a 0 cuando este incremente.
+<b>Y:</b> Versión menor. Cambios que SI son compatibles con las versiones anteriores. Aquí incluiremos los commits desde las “release branches” cada vez que se agreguen nuevas funcionalidades. Por convención Z se reiniciará a 0 cuando este incremente.
 
-Z: Parches y correcciones de errores menores. Aquí incluiremos los commits desde la “hotfix branch” que se unen al “master”.
+<b>Z:</b> Parches y correcciones de errores menores. Aquí incluiremos los commits desde la “hotfix branch” que se unen al “master”.
 
 Semantic Versioning Specification: https://semver.org/
 
 A continuación un ejemplo para una HOTFIX BRANCH:
 
-Diagrama, Esquemático
 
-Descripción generada automáticamente
+
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/branch.png)
+
 
 Nomenclatura X.Y.Z en GitFlow. Fuente: https://nvie.com/img/hotfix-branches@2x.png
 
-Commit Conventions:
+<b>Commit Conventions:</b>
 
 El formato de nuestros commits sigue la estructura de los “Conventional Commits”  con el objetivo de proporcionar una lectura sencilla del historial de confirmaciones. Por ello seguimos el siguiente formato:
 
@@ -1733,9 +1735,8 @@ description: Es un breve resumen de los cambios de código.
 
 Conventional Commits: https://www.conventionalcommits.org/
 
-Diagrama
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/branch.png)
 
-Descripción generada automáticamente
 
 Proceso GitFlow. Fuente: https://nvie.com/img/git-model@2x.png
 
@@ -1770,15 +1771,13 @@ En esta sección abordaremos el proceso para desplegar nuestra Landing Page medi
 
 1) Primero crearemos un apartado en nuestra organización.
 
-Una captura de pantalla de un celular
-
-Descripción generada automáticamente con confianza media
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/02.png)
 
 2) Crearemos un nuevo repositorio para guardar los archivos de nuestra Landing Page
 
-Captura de pantalla de un celular
 
-Descripción generada automáticamente
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/03.png)
+
 
 3) Procedemos a configurar el repositorio para el despliegue de la Landing Page, para ello necesitamos culminar el sprint 1.
 
@@ -1787,15 +1786,138 @@ Descripción generada automáticamente
 ## 6.2. Landing Page, Services & Applications Implementation.
 ### 6.2.1. Sprint 1
 #### 6.2.1.1. Sprint Planning 1.
-
+<table border="1" cellpadding="5" cellspacing="0">
+    <colgroup>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+        <col>
+    </colgroup>
+    <tbody>
+        <tr>
+            <td colspan="8">Sprint # </td>
+            <td colspan="7">1</td>
+        </tr>
+        <tr>
+            <td colspan="2">User Story </td>
+            <td colspan="6">Work-Item / Task </td>
+        </tr>
+        <tr>
+            <td>Id </td>
+            <td>Title </td>
+            <td>Id </td>
+            <td>Title </td>
+            <td>Description </td>
+            <td>Estimation (hours) </td>
+            <td>Assigned To </td>
+            <td>Status (To-do /In-Process /To-Review /Done) </td>
+        </tr>
+        <tr>
+            <td rowspan="2">HU23 </td>
+            <td>Desplazarse fácilmente entre las secciones del landing page </td>
+            <td>T23-01 </td>
+            <td>Secciones de landing page </td>
+            <td>Desarrollo de las secciones empresas y clientes, about us, business, y planes y precios. </td>
+            <td>4</td>
+            <td>De la Mar Zurita </td>
+            <td>Done </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td>T23-02 </td>
+            <td>Implementar barra de navegación </td>
+            <td>Barra en la parte superior de la landing page con nombres de las secciones que la conforman </td>
+            <td>2</td>
+            <td>Abel Cierto </td>
+            <td>Done </td>
+        </tr>
+        <tr>
+            <td rowspan="3">HU24 </td>
+            <td>Visualizar los beneficios de los planes </td>
+            <td>T24-01 </td>
+            <td>Estructura de la portada y el cuerpo </td>
+            <td>Ubicación de los elementos en la sección correspondiente de la landing page </td>
+            <td>2</td>
+            <td>Fiorella Valencia </td>
+            <td>Done </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td>T24-02 </td>
+            <td>Planes para remitentes </td>
+            <td>En esta sección se detallan los beneficios que tiene cada plan para los remitentes </td>
+            <td>1</td>
+            <td>De la mar Zurita </td>
+            <td>Done </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td>T24-03 </td>
+            <td>Planes para agencias </td>
+            <td>En esta sección se detallan los beneficios que tiene cada plan para las agencias </td>
+            <td>1</td>
+            <td>Michael Carrillo </td>
+            <td>Done </td>
+        </tr>
+        <tr>
+            <td rowspan="2">HU25 </td>
+            <td>Visualizar información sobre los desarrolladores de la app </td>
+            <td>T25-01 </td>
+            <td>Sección en la landing page </td>
+            <td>Diseñar y acoplar la sección en la landing page </td>
+            <td>1</td>
+            <td>Lennin Huama </td>
+            <td>Done </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td>T25-02 </td>
+            <td>Perfiles de integrantes </td>
+            <td>Agregar fotos de los integrantes de nuestra organización </td>
+            <td>1</td>
+            <td>Lennin Huaman </td>
+            <td>Done </td>
+        </tr>
+        <tr>
+            <td rowspan="3">HU26 </td>
+            <td>Sección de la landing page para los segmentos de usuarios  </td>
+            <td>T26-01 </td>
+            <td>Encabezado para cada segmento </td>
+            <td>Imagen representativa en la parte superior según la sección developers o empresas </td>
+            <td>1</td>
+            <td>Fiorella Valencia </td>
+            <td>Done </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td>T26-02 </td>
+            <td>Beneficios para los segmentos objetivos </td>
+            <td>Ventajas que tiene la plataforma para clientes remitentes y empresas </td>
+            <td>3</td>
+            <td>Abel Cierto </td>
+            <td>Done </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td>T26-03 </td>
+            <td>About us </td>
+            <td>Sección que describe brevemente nuestras las características de nuestra organización </td>
+            <td>1</td>
+            <td>Abel Cierto </td>
+            <td>Done </td>
+        </tr>
+    </tbody>
+</table>
 
 
 #### 6.2.1.2. Sprint Backlog 1.
 Para el Desarrollo de landing page nos ayudamos de la herramienta de trello, en ello se evidencia los user stories culminados para esta entrega.
 
-Interfaz de usuario gráfica
-
-Descripción generada automáticamente
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/04.png)
 
 Link: https://trello.com/b/taOGp3JV/sprint-1
 
@@ -1824,26 +1946,32 @@ En este informe, presentamos las pruebas automatizadas realizadas con Selenium e
 
 Creación de proyecto:
 
-
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/05.png)
 
 Ingresar enlace de Landing Page desplegado
 
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/06.png)
 
 Ejecutar Selenium
 
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/07.png)
 
 Detener grabación
 
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/08.png)
 
 Prueba exitosa
+
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/09.png)
 
 #### 6.2.1.5. Execution Evidence for Sprint Review.
 
 El execution evidence muestra el reporte trabajado en github, los capítulos desarrollados en las ramas del repositorio. Asimismo, se muestra el landing page desplegado, para ello se evidencia el código y luego el link desplegado en Netlify.
 
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/10.png)
 
+Link: [ upc-pre-202302-si572-sw72-SoftRoute-sprint1-execution-evidence.mp4](https://upcedupe-my.sharepoint.com/personal/u20201b561_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201b561%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202302%2Dsi572%2Dsw72%2DSoftRoute%2Dsprint1%2Dexecution%2Devidence%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)
 
-Link: upc-pre-202302-si572-sw72-SoftRoute-sprint1-execution-evidence.mp4 
 
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review.
 
@@ -1851,7 +1979,9 @@ Para la tb1 se desarrolló el landing page. Para ello, se realizó el despliegue
 
 Luego de haber desplegado, el landing page se podrá acceder a través de un link proporcionado por Netlify.
 
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/11.png)
 
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/12.png)
 Link: https://6510f678a171f143f95de96d--vermillion-paprenjak-0251b7.netlify.app/
 
 
@@ -1859,19 +1989,121 @@ Link: https://6510f678a171f143f95de96d--vermillion-paprenjak-0251b7.netlify.app/
 #### 6.2.1.7. Team Collaboration Insights during Sprint.
 Para el desarrollo de cada uno de los artefactos del informe se realizó reuniones por un grupo de Discord, en las cuales dividimos cada uno de los apartados de cada entrega para poder realizarlos con mayor facilidad. Posteriormente, realizado cada punto individualmente, nos reunimos para mostrar nuestros avances y pedir las opiniones de los demás integrantes. Asimismo, se creó una organización en teams para poder organizar las entregas e ir subiendo cada avance. Por otra parte, para la elaboración del landing page empleamos el sistema de control de versiones git y la plataforma de github. A continuación, se mestra el Network graph donde se puede evidenciar todos los commits realizados en nuestro repositorio
 
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/13.png)
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/14.png)
 
 ### 6.2.2. Sprint 2
 #### 6.2.2.1. Sprint Planning 2.
+
+<table border="1" cellpadding="5" cellspacing="0">
+    <thead>
+        <tr>
+            <th colspan="8">Sprint #</th>
+            <th colspan="7">2</th>
+        </tr>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="6">Work-Item / Task</th>
+        </tr>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Estimation (hours)</th>
+            <th>Assigned To</th>
+            <th>Status (To-do /In-Process /To-Review /Done)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">US01</td>
+            <td>Registrar paquetes</td>
+            <td>T01-01</td>
+            <td>Implementar en el frontend una sección para registrar paquetes</td>
+            <td>Desarrollar en el lenguaje de angular una sección para que un empleado de una empresa pueda registrar</td>
+            <td>4</td>
+            <td>De la Mar Zurita</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>T01-02</td>
+            <td>Implementar en el backend el registro de un paquete</td>
+            <td>Desarrollar en el lenguaje de java y spring boot el endpoint de registrar un paquete</td>
+            <td>2</td>
+            <td>Abel Cierto</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US02</td>
+            <td>Ingresar información de los envíos</td>
+            <td>T02-01</td>
+            <td>Implementar el frontend para actualizar el estado del envío realizado</td>
+            <td>Desarrollar en angular una sección para encontrar todos los envíos que se realizaron y poder actualizarlo.</td>
+            <td>2</td>
+            <td>Abel Cierto</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>T02-02</td>
+            <td>Implementar en el backend un endpoint para actualizar el estado de envío</td>
+            <td>Desarrollar en java y sprintboot el endpoint de actualizar el estado del envío realizado</td>
+            <td>1</td>
+            <td>De la mar Zurita</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US03</td>
+            <td>Modificar información de paquetes</td>
+            <td>T03-01</td>
+            <td>Implementar en el frontend una sección para modificar información de los paquetes</td>
+            <td>Desarrollar en el lenguaje de angular una sección para que un empleado de una empresa pueda modificar información del paquete ingresado</td>
+            <td>1</td>
+            <td>Lennin Huama</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>T03-02</td>
+            <td>Implementar en el backend el actualizar o modificar información de paquetes</td>
+            <td>Desarrollar en el lenguaje de java y spring boot el endpoint de modificar información de paquete</td>
+            <td>1</td>
+            <td>Lennin Huaman</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">US04</td>
+            <td>Visualizar el tracking de sus envíos</td>
+            <td>T04-01</td>
+            <td>Implementar en el frontend una sección para que el cliente pueda visualizar el tracking de su envío</td>
+            <td>Desarrollar en el lenguaje de angular una sección para que un cliente pueda visualizar el tracking de su envío</td>
+            <td>1</td>
+            <td>Fiorella Valencia</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>T04-02</td>
+            <td>Implementar en el backend el obtener la información de tracking de un envío</td>
+            <td>Desarrollar en el lenguaje de java y spring boot el endpoint de obtener la información de tracking de un envío.</td>
+            <td>3</td>
+            <td>Abel Cierto</td>
+            <td>Done</td>
+        </tr>
+    </tbody>
+</table>
 
 
 
 #### 6.2.2.2. Sprint Backlog 2.
 Para el Desarrollo del sprint 2 nos ayudamos de la herramienta de trello, en ello se evidencia los user stories culminados para esta entrega.
 
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/15.png)
+
 Link: https://trello.com/b/zVH7hhBK/sprint-2
-
-
-
 
 
 
@@ -1953,8 +2185,10 @@ La siguiente tabla corresponde a la elaboración del backend de la aplicación:
 #### 6.2.2.5. Execution Evidence for Sprint Review.
 Para esta entrega se desarrollo el backend y el frontend de la aplicación web. Asimismo, se realizó el testeo del company en el backend. Finalmente, se desplegó una base de datos para poder almacenar los usuarios y encomiendas de manera persistente.
 
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/16.png)
 
-upc-pre-202302-si572-sw72-SoftRoute-exe-evidence-tb2.mp4
+ link: [Watch the video](https://upcedupe-my.sharepoint.com/personal/u20201b561_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201b561%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202302%2Dsi572%2Dsw72%2DSoftRoute%2Dexe%2Devidence%2Dtb2%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)
+
 
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review.
 
@@ -1962,7 +2196,9 @@ El service documentation elaborado en el backend es el siguiente:
 
 En las siguientes imágenes se observan los controller desarrollados para el backend. Se tiene endpoints para package, employee, company, shipment, shipment/package.
 
-
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/17.png)
+> ![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/18.png)
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/19.png)
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review .
 
 El despliegue del backend:
@@ -1971,16 +2207,17 @@ Para el despliegue del backend desarrollado en java lo realizamos en Microsoft A
 
 En Microsoft azure se crea una web app:
 
-
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/20.png)
 
 
 
 Luego, en deployment configuramos el repositorio de la organización y elegimos la rama deployment del github del reposritorio SoftRoute-Backend.
 
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/21.png)
 
 Aquí podemos observar el perfil de la aplicación en despliegue:
 
-
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/22.png)
 
 
 
@@ -1992,18 +2229,18 @@ Para el despliegue de la aplicación web desarrollada en angular se eligió Netl
 
 Para ello debemos ejecutar el comando “ng build”:
 
-
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/23.png)
 
 Luego desplegamos la aplicación en Netlify, para ello debemos insertar la carpeta dist que generó el comando “ng build”.
 
 
-
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/24.png)
 
 
 
 Luego de realizar la carga de los archivos correspondientes, podemos observar la aplicación web ya desplegada.
 
-
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/25.png)
 
 #### 6.2.2.8. Team Collaboration Insights during Sprint.
 
@@ -2011,18 +2248,91 @@ La colaboración del equipo durante el desarrollo del sprint se observa en dos r
 
 Evidencia de colaboración en la realización del frontend de la aplicación web.
 
-
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/26.png)
 
 Evidencia de colaboración en la realización del backend de la aplicación web.
 
+
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/27.png)
+
+
 ### 6.2.3. Sprint 3
-#### 6.2.3.1. Sprint Planning 2.
+#### 6.2.3.1. Sprint Planning 3.
+<table border="1" cellpadding="5" cellspacing="0">
+    <thead>
+        <tr>
+            <th colspan="8">Sprint #</th>
+            <th colspan="7">3</th>
+        </tr>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="6">Work-Item / Task</th>
+        </tr>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Estimation (hours)</th>
+            <th>Assigned To</th>
+            <th>Status (To-do /In-Process /To-Review /Done)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="4">US04</td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td rowspan="4"></td>
+            <td>Visualizar el tracking de sus envíos e información correspondiente</td>
+            <td>T04-01</td>
+            <td>Implementar en el frontend una aplicación móvil para que pueda visualizar la ubicación de la encomienda en tiempo real</td>
+            <td>3</td>
+            <td>Michael Carrillo</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T04-02</td>
+            <td>Realizar una integración de Arduino para la actualización de la información en tiempo real</td>
+            <td>Programar en c++ en los sensores que simulan el movimiento del transporte</td>
+            <td>3</td>
+            <td>Abel Cierto</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T04-03</td>
+            <td>Realizar una integración de Arduino para la actualización de la información de temperatura</td>
+            <td>Realizar una integración de Arduino para la actualización de la información de temperatura en algunos carros de transportes que necesiten</td>
+            <td>3</td>
+            <td>Lennin Huaman</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T04-05</td>
+            <td>Realizar una vista en Flutter para la visualización de temperatura</td>
+            <td>Desarrollar un código basado en C++ para obtener la data de temperatura y mostrarlo en la aplicación móvil</td>
+            <td>3</td>
+            <td>Fiorella Valencia</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="1">T05-05</td>
+            <td rowspan="1">Desarrollar en el frontend de Web la visualización de todos los envíos que realizó un empleado</td>
+            <td rowspan="1">Generar un frontend para visualizar todos los envíos que realizó el trabajador de una determinada empresa</td>
+            <td rowspan="1">3</td>
+            <td rowspan="1">De la Mar Zurita</td>
+            <td rowspan="1">Done</td>
+        </tr>
+    </tbody>
+</table>
 
 
 
-#### 6.2.3.2. Sprint Backlog 2.
+#### 6.2.3.2. Sprint Backlog 3.
 Para el desarrollo sprint 3 nos ayudamos de la herramienta de trello, en ello se evidencia las tareas culminados para esta entrega.
 
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/29.png)
 
 Link: https://trello.com/b/z1A8QqhP/sprint-3
 
@@ -2068,15 +2378,23 @@ del backend
 
 Para esta entrega se desarrolló el backend, IoT y el frontend de la aplicación web. Asimismo, se realizó el testeo de los endpoint en el backend desplegado. Finalmente, se desplegó una base de datos para poder almacenar los usuarios y encomiendas de manera persistente.
 
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/30.png)
+
+Link: [upc-pre-202302-si572-sw72-SoftRoute-exe-evidence-tf.mp4](https://upcedupe-my.sharepoint.com/personal/u20201b944_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201b944%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202302%2Dsi572%2Dsw72%2DSoftRoute%2Dexe%2Devidence%2Dtf%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)
 
 
-upc-pre-202302-si572-sw72-SoftRoute-exe-evidence-tf.mp4
 
 #### 6.2.3.6. Services Documentation Evidence for Sprint Review.
 
 El service documentation elaborado en el backend es el siguiente:
 
 En las siguientes imágenes se observan los controller desarrollados para el backend. Se tiene endpoints para package, employee, company, shipment, shipment/package. Asi mismo se evidencia los datos de localización y datos de temperatura.
+
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/31.png)
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/32.png)
+> ![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/34.png)
+> ![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/35.png)
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/36.png)
 
 #### 6.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -2086,16 +2404,16 @@ Para el despliegue del backend desarrollado en java lo realizamos en Microsoft A
 
 En Microsoft azure se crea una web app:
 
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/37.png)
 
 
 Luego, en deployment configuramos el repositorio de la organización y elegimos la rama deployment del github del reposritorio SoftRoute-Backend.
 
-
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/38.png)
 
 Luego, en deployment configuramos el repositorio de la organización y elegimos la rama deployment del github del reposritorio SoftRoute-Backend.
 
-
-
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/39.png)
 
 
 Finalmente, el despliegue del backend se observa en el siguiente link: https://sofroute.azurewebsites.net/
@@ -2106,17 +2424,17 @@ Para el despliegue de la aplicación web desarrollada en angular se eligió Netl
 
 Para ello debemos ejecutar el comando “ng build”:
 
-
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/40.png)
 
 
 Luego desplegamos la aplicación en Netlify, para ello debemos insertar la carpeta dist que generó el comando “ng build”.
 
-
-
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/41.png)
 
 
 Luego de realizar la carga de los archivos correspondientes, podemos observar la aplicación web ya desplegada.
 
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/42.png)
 
 Link. https://softroute.netlify.app
 
@@ -2126,11 +2444,15 @@ La colaboración del equipo durante el desarrollo del sprint se observa en dos r
 
 Evidencia de colaboración en la realización del web app.
 
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/43.png)
 
 Evidencia de colaboración en la realización del mobile app.
 
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/44.png)
 
 Evidencia de colaboración en la realización del backend de la aplicación web.
+
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/45.png)
 
 ---
 ## 6.3. Validation Interviews.
@@ -2175,7 +2497,7 @@ Segmento de trabajadores de empresas
 
 Entrevista 1
 
-
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/46 en.png)
 
 
 Nombres: Dominik Mendoza
@@ -2190,7 +2512,7 @@ Considera que el diseño de la landing page es bastante interactivo y tiene una 
 
 Entrevista 2
 
-
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/47.png)
 
 
 Nombres: Branco Villegas Peralta
@@ -2205,7 +2527,7 @@ Se encuentra trabajando en una empresa de agencia de envíos. El landing page le
 
   Entrevista 3 
 
-
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/48.png)
 
 
 
@@ -2221,7 +2543,7 @@ Tania trabaja en una empresa dedicada al rubro de envíos y recepción de encomi
 
 Entrevista 4
 
-
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/49.png)
 
 
 Nombres: Lucia Casablancas Olivera
@@ -2312,7 +2634,7 @@ Problema:
 Cuando un empleado inicia sesión en la plataforma, e ingresar al apartado de Home, se puede apreciar una inconsistencia en la justificación de las opciones del navbar.
 
 
-
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/50.png)
 
 
 Recomendación:
@@ -2333,8 +2655,7 @@ Problema:
 
 Cuando un empleado inicia sesión en la plataforma, e ingresar al apartado de Home, se puede apreciar que no hay un buen contraste entre el color de las opciones del navbar y el color de fondo.
 
-
-
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/50.png)
 
 Recomendación:
 
@@ -2343,12 +2664,16 @@ Se recomienda mejorar el contraste entre el color de las opciones del navbar y e
 ---
 ## 6.4. Video About-the-Product.
 
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/51.png)
+
+
 https://www.youtube.com/watch?v=BLq7h1N8iGw
 
 ## 6.5. Video About-the-Team.
 
 A continuación, presentamos una imagen que muestra la evidencia del video about the team realizado por el equipo.
 
+>![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/52.png)
 
 Link: video about the team.mp4
 
