@@ -1714,7 +1714,7 @@ A continuación un ejemplo para una HOTFIX BRANCH:
 
 
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/branch.png)
+>![](Resources/cap6/branch.png)
 
 
 Nomenclatura X.Y.Z en GitFlow. Fuente: https://nvie.com/img/hotfix-branches@2x.png
@@ -1735,7 +1735,7 @@ description: Es un breve resumen de los cambios de código.
 
 Conventional Commits: https://www.conventionalcommits.org/
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/branch.png)
+>![](Resources/cap6/branch.png)
 
 
 Proceso GitFlow. Fuente: https://nvie.com/img/git-model@2x.png
@@ -1771,12 +1771,12 @@ En esta sección abordaremos el proceso para desplegar nuestra Landing Page medi
 
 1) Primero crearemos un apartado en nuestra organización.
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/02.png)
+>![](Resources/cap6/02.png)
 
 2) Crearemos un nuevo repositorio para guardar los archivos de nuestra Landing Page
 
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/03.png)
+>![](Resources/cap6/03.png)
 
 
 3) Procedemos a configurar el repositorio para el despliegue de la Landing Page, para ello necesitamos culminar el sprint 1.
@@ -1917,7 +1917,7 @@ En esta sección abordaremos el proceso para desplegar nuestra Landing Page medi
 #### 6.2.1.2. Sprint Backlog 1.
 Para el Desarrollo de landing page nos ayudamos de la herramienta de trello, en ello se evidencia los user stories culminados para esta entrega.
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/04.png)
+>![](Resources/cap6/04.png)
 
 Link: https://trello.com/b/taOGp3JV/sprint-1
 
@@ -1946,29 +1946,29 @@ En este informe, presentamos las pruebas automatizadas realizadas con Selenium e
 
 Creación de proyecto:
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/05.png)
+>![](Resources/cap6/05.png)
 
 Ingresar enlace de Landing Page desplegado
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/06.png)
+>![](Resources/cap6/06.png)
 
 Ejecutar Selenium
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/07.png)
+>![](Resources/cap6/07.png)
 
 Detener grabación
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/08.png)
+>![](Resources/cap6/08.png)
 
 Prueba exitosa
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/09.png)
+>![](Resources/cap6/09.png)
 
 #### 6.2.1.5. Execution Evidence for Sprint Review.
 
 El execution evidence muestra el reporte trabajado en github, los capítulos desarrollados en las ramas del repositorio. Asimismo, se muestra el landing page desplegado, para ello se evidencia el código y luego el link desplegado en Netlify.
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/10.png)
+>![](Resources/cap6/10.png)
 
 Link: [ upc-pre-202302-si572-sw72-SoftRoute-sprint1-execution-evidence.mp4](https://upcedupe-my.sharepoint.com/personal/u20201b561_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201b561%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202302%2Dsi572%2Dsw72%2DSoftRoute%2Dsprint1%2Dexecution%2Devidence%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)
 
@@ -1979,9 +1979,9 @@ Para la tb1 se desarrolló el landing page. Para ello, se realizó el despliegue
 
 Luego de haber desplegado, el landing page se podrá acceder a través de un link proporcionado por Netlify.
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/11.png)
+>![](Resources/cap6/11.png)
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/12.png)
+>![](Resources/cap6/12.png)
 Link: https://6510f678a171f143f95de96d--vermillion-paprenjak-0251b7.netlify.app/
 
 
@@ -1989,8 +1989,8 @@ Link: https://6510f678a171f143f95de96d--vermillion-paprenjak-0251b7.netlify.app/
 #### 6.2.1.7. Team Collaboration Insights during Sprint.
 Para el desarrollo de cada uno de los artefactos del informe se realizó reuniones por un grupo de Discord, en las cuales dividimos cada uno de los apartados de cada entrega para poder realizarlos con mayor facilidad. Posteriormente, realizado cada punto individualmente, nos reunimos para mostrar nuestros avances y pedir las opiniones de los demás integrantes. Asimismo, se creó una organización en teams para poder organizar las entregas e ir subiendo cada avance. Por otra parte, para la elaboración del landing page empleamos el sistema de control de versiones git y la plataforma de github. A continuación, se mestra el Network graph donde se puede evidenciar todos los commits realizados en nuestro repositorio
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/13.png)
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/14.png)
+>![](Resources/cap6/13.png)
+>![](Resources/cap6/14.png)
 
 ### 6.2.2. Sprint 2
 #### 6.2.2.1. Sprint Planning 2.
@@ -2101,7 +2101,7 @@ Para el desarrollo de cada uno de los artefactos del informe se realizó reunion
 #### 6.2.2.2. Sprint Backlog 2.
 Para el Desarrollo del sprint 2 nos ayudamos de la herramienta de trello, en ello se evidencia los user stories culminados para esta entrega.
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/15.png)
+>![](Resources/cap6/15.png)
 
 Link: https://trello.com/b/zVH7hhBK/sprint-2
 
@@ -2185,7 +2185,7 @@ La siguiente tabla corresponde a la elaboración del backend de la aplicación:
 #### 6.2.2.5. Execution Evidence for Sprint Review.
 Para esta entrega se desarrollo el backend y el frontend de la aplicación web. Asimismo, se realizó el testeo del company en el backend. Finalmente, se desplegó una base de datos para poder almacenar los usuarios y encomiendas de manera persistente.
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/16.png)
+>![](Resources/cap6/16.png)
 
  link: [Watch the video](https://upcedupe-my.sharepoint.com/personal/u20201b561_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201b561%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202302%2Dsi572%2Dsw72%2DSoftRoute%2Dexe%2Devidence%2Dtb2%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)
 
@@ -2196,9 +2196,9 @@ El service documentation elaborado en el backend es el siguiente:
 
 En las siguientes imágenes se observan los controller desarrollados para el backend. Se tiene endpoints para package, employee, company, shipment, shipment/package.
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/17.png)
-> ![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/18.png)
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/19.png)
+>![](Resources/cap6/17.png)
+> ![](Resources/cap6/18.png)
+>![](Resources/cap6/19.png)
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review .
 
 El despliegue del backend:
@@ -2207,17 +2207,17 @@ Para el despliegue del backend desarrollado en java lo realizamos en Microsoft A
 
 En Microsoft azure se crea una web app:
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/20.png)
+>![](Resources/cap6/20.png)
 
 
 
 Luego, en deployment configuramos el repositorio de la organización y elegimos la rama deployment del github del reposritorio SoftRoute-Backend.
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/21.png)
+>![](Resources/cap6/21.png)
 
 Aquí podemos observar el perfil de la aplicación en despliegue:
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/22.png)
+>![](Resources/cap6/22.png)
 
 
 
@@ -2229,18 +2229,18 @@ Para el despliegue de la aplicación web desarrollada en angular se eligió Netl
 
 Para ello debemos ejecutar el comando “ng build”:
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/23.png)
+>![](Resources/cap6/23.png)
 
 Luego desplegamos la aplicación en Netlify, para ello debemos insertar la carpeta dist que generó el comando “ng build”.
 
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/24.png)
+>![](Resources/cap6/24.png)
 
 
 
 Luego de realizar la carga de los archivos correspondientes, podemos observar la aplicación web ya desplegada.
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/25.png)
+>![](Resources/cap6/25.png)
 
 #### 6.2.2.8. Team Collaboration Insights during Sprint.
 
@@ -2248,12 +2248,12 @@ La colaboración del equipo durante el desarrollo del sprint se observa en dos r
 
 Evidencia de colaboración en la realización del frontend de la aplicación web.
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/26.png)
+>![](Resources/cap6/26.png)
 
 Evidencia de colaboración en la realización del backend de la aplicación web.
 
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/27.png)
+>![](Resources/cap6/27.png)
 
 
 ### 6.2.3. Sprint 3
@@ -2332,7 +2332,7 @@ Evidencia de colaboración en la realización del backend de la aplicación web.
 #### 6.2.3.2. Sprint Backlog 3.
 Para el desarrollo sprint 3 nos ayudamos de la herramienta de trello, en ello se evidencia las tareas culminados para esta entrega.
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/29.png)
+>![](Resources/cap6/29.png)
 
 Link: https://trello.com/b/z1A8QqhP/sprint-3
 
@@ -2378,7 +2378,7 @@ del backend
 
 Para esta entrega se desarrolló el backend, IoT y el frontend de la aplicación web. Asimismo, se realizó el testeo de los endpoint en el backend desplegado. Finalmente, se desplegó una base de datos para poder almacenar los usuarios y encomiendas de manera persistente.
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/30.png)
+>![](Resources/cap6/30.png)
 
 Link: [upc-pre-202302-si572-sw72-SoftRoute-exe-evidence-tf.mp4](https://upcedupe-my.sharepoint.com/personal/u20201b944_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20201b944%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202302%2Dsi572%2Dsw72%2DSoftRoute%2Dexe%2Devidence%2Dtf%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview)
 
@@ -2390,11 +2390,11 @@ El service documentation elaborado en el backend es el siguiente:
 
 En las siguientes imágenes se observan los controller desarrollados para el backend. Se tiene endpoints para package, employee, company, shipment, shipment/package. Asi mismo se evidencia los datos de localización y datos de temperatura.
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/31.png)
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/32.png)
-> ![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/34.png)
-> ![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/35.png)
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/36.png)
+>![](Resources/cap6/31.png)
+>![](Resources/cap6/32.png)
+> ![](Resources/cap6/34.png)
+> ![](Resources/cap6/35.png)
+>![](Resources/cap6/36.png)
 
 #### 6.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -2404,16 +2404,16 @@ Para el despliegue del backend desarrollado en java lo realizamos en Microsoft A
 
 En Microsoft azure se crea una web app:
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/37.png)
+>![](Resources/cap6/37.png)
 
 
 Luego, en deployment configuramos el repositorio de la organización y elegimos la rama deployment del github del reposritorio SoftRoute-Backend.
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/38.png)
+>![](Resources/cap6/38.png)
 
 Luego, en deployment configuramos el repositorio de la organización y elegimos la rama deployment del github del reposritorio SoftRoute-Backend.
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/39.png)
+>![](Resources/cap6/39.png)
 
 
 Finalmente, el despliegue del backend se observa en el siguiente link: https://sofroute.azurewebsites.net/
@@ -2424,17 +2424,17 @@ Para el despliegue de la aplicación web desarrollada en angular se eligió Netl
 
 Para ello debemos ejecutar el comando “ng build”:
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/40.png)
+>![](Resources/cap6/40.png)
 
 
 Luego desplegamos la aplicación en Netlify, para ello debemos insertar la carpeta dist que generó el comando “ng build”.
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/41.png)
+>![](Resources/cap6/41.png)
 
 
 Luego de realizar la carga de los archivos correspondientes, podemos observar la aplicación web ya desplegada.
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/42.png)
+>![](Resources/cap6/42.png)
 
 Link. https://softroute.netlify.app
 
@@ -2444,15 +2444,15 @@ La colaboración del equipo durante el desarrollo del sprint se observa en dos r
 
 Evidencia de colaboración en la realización del web app.
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/43.png)
+>![](Resources/cap6/43.png)
 
 Evidencia de colaboración en la realización del mobile app.
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/44.png)
+>![](Resources/cap6/44.png)
 
 Evidencia de colaboración en la realización del backend de la aplicación web.
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/45.png)
+>![](Resources/cap6/45.png)
 
 ---
 ## 6.3. Validation Interviews.
@@ -2497,7 +2497,7 @@ Segmento de trabajadores de empresas
 
 Entrevista 1
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/46 en.png)
+>![](Resources/cap6/46 en.png)
 
 
 Nombres: Dominik Mendoza
@@ -2512,7 +2512,7 @@ Considera que el diseño de la landing page es bastante interactivo y tiene una 
 
 Entrevista 2
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/47.png)
+>![](Resources/cap6/47.png)
 
 
 Nombres: Branco Villegas Peralta
@@ -2527,7 +2527,7 @@ Se encuentra trabajando en una empresa de agencia de envíos. El landing page le
 
   Entrevista 3 
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/48.png)
+>![](Resources/cap6/48.png)
 
 
 
@@ -2543,7 +2543,7 @@ Tania trabaja en una empresa dedicada al rubro de envíos y recepción de encomi
 
 Entrevista 4
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/49.png)
+>![](Resources/cap6/49.png)
 
 
 Nombres: Lucia Casablancas Olivera
@@ -2634,7 +2634,7 @@ Problema:
 Cuando un empleado inicia sesión en la plataforma, e ingresar al apartado de Home, se puede apreciar una inconsistencia en la justificación de las opciones del navbar.
 
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/50.png)
+>![](Resources/cap6/50.png)
 
 
 Recomendación:
@@ -2655,7 +2655,7 @@ Problema:
 
 Cuando un empleado inicia sesión en la plataforma, e ingresar al apartado de Home, se puede apreciar que no hay un buen contraste entre el color de las opciones del navbar y el color de fondo.
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/50.png)
+>![](Resources/cap6/50.png)
 
 Recomendación:
 
@@ -2664,7 +2664,7 @@ Se recomienda mejorar el contraste entre el color de las opciones del navbar y e
 ---
 ## 6.4. Video About-the-Product.
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/51.png)
+>![](Resources/cap6/51.png)
 
 
 https://www.youtube.com/watch?v=BLq7h1N8iGw
@@ -2673,7 +2673,7 @@ https://www.youtube.com/watch?v=BLq7h1N8iGw
 
 A continuación, presentamos una imagen que muestra la evidencia del video about the team realizado por el equipo.
 
->![](/media/delamar/Local/projects NestJs/upc-pre-202302-si572-SW72-softroute-report/Resources/cap6/52.png)
+>![](Resources/cap6/52.png)
 
 Link: video about the team.mp4
 
